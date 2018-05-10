@@ -5,74 +5,246 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#FEF1E0">
-
+    android:background="#fcfcfc">
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="210dp"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
 
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/colappsingtoolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/menubackground"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
             app:contentScrim="?attr/colorPrimary"
-            app:expandedTitleMarginEnd="64dp"
+            app:title="HS'Cards"
 
             app:expandedTitleMarginStart="48dp"
-            app:layout_scrollFlags="exitUntilCollapsed|scroll"
-            app:title="HS'Cards">
+            app:expandedTitleMarginEnd="64dp"
+            android:background="@drawable/menubackground">
 
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbarid"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:layout_collapseMode="pin"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+                >
 
             </android.support.v7.widget.Toolbar>
+
 
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
     </android.support.design.widget.AppBarLayout>
+
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#fff2df"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-
-
-
-    <LinearLayout
-        android:clipToPadding="false"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/chaman_avatar"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:clickable="true"
-            >
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="275dp"
-            android:layout_height="275dp"
-            android:src="@drawable/chaman_avatar"
-            android:background="#FEF1E0" />
-        </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:text="CHAMAN"
+                android:visibility="visible" />
 
-    </LinearLayout>
+            <android.support.v7.widget.CardView
+                android:id="@+id/Chaman"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/chaman_avatar"
+                    android:cropToPadding="true" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:text="CHASSEUR"
+                android:visibility="visible" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Chasseur"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/chasseur_avatar" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:text="DEMONISTE"
+                android:visibility="visible" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Demoniste"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/demoniste_avatar" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:text="DRUIDE"
+                android:visibility="visible" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Druide"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/druid_avatar" />
+            </android.support.v7.widget.CardView>
 
 
-</android.support.v4.widget.NestedScrollView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:text="GUERRIER"
+                android:visibility="visible" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Guerrier"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/guerrier_avatar" />
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:text="MAGE"
+                android:visibility="visible" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Mage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/mage_avatar" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:text="PALADIN"
+                android:visibility="visible" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Paladin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/paladin_avatar" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:text="PRETRE"
+                android:visibility="visible" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Pretre"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/pretre_avatar" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:text="VOLEUR"
+                android:visibility="visible" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Voleur"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/voleur_avatar" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
 
 
 </android.support.design.widget.CoordinatorLayout>

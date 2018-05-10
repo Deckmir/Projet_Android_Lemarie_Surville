@@ -24,10 +24,7 @@
             android:name=".Card_Services"
             android:exported="false" />
 
-        <activity
-            android:name=".ChamanActivity"
-            android:label="@string/title_activity_chaman"
-            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".ChamanActivity"></activity>
     </application>
 
 </manifest>

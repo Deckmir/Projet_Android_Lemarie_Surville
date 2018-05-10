@@ -4,26 +4,27 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.net.Uri;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
 public class ChamanActivity extends AppCompatActivity {
+
 
     private RecyclerView rv;
 
@@ -37,7 +38,7 @@ public class ChamanActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 IntentFilter intentFilter = new IntentFilter(HEARTHSTONE_UPDATE);
-                LocalBroadcastManager.getInstance(ChamanActivity.this).registerReceiver(new ChamanActivity.CardUpdate(), intentFilter);
+                LocalBroadcastManager.getInstance(ChamanActivity.this).registerReceiver(new CardUpdate(), intentFilter);
                 Card_Services.startActionCards(ChamanActivity.this);
 
             }
@@ -45,7 +46,7 @@ public class ChamanActivity extends AppCompatActivity {
 
         rv = (RecyclerView) findViewById(R.id.rv_chaman);
         rv.setLayoutManager(new LinearLayoutManager(this));
-        rv.setAdapter(new ChamanAdapter(getCardsFromFile()));
+        rv.setAdapter(new CardsAdapter(getCardsFromFile()));
     }
 
 
@@ -56,7 +57,8 @@ public class ChamanActivity extends AppCompatActivity {
         @Override
         public void onReceive(Context context, Intent intent) {
 
-            ChamanAdapter adapter = (ChamanAdapter) rv.getAdapter();
+            Log.d("tag", "OnReceive");
+            CardsAdapter adapter = (CardsAdapter) rv.getAdapter();
 
             adapter.setNewCards(getCardsFromFile());
 
@@ -73,15 +75,14 @@ public class ChamanActivity extends AppCompatActivity {
             JSONArray test = new JSONArray(new String(buffer,"utf-8"));
             int length = test.length();
 
+            Log.d("tag", "Longueur : " + Integer.toString(length));
             return test; // construction du tableau
         } catch (IOException e) {
             e.printStackTrace();
-            return new JSONArray();
         } catch (JSONException e) {
             e.printStackTrace();
         }
 
         return new JSONArray();
     }
-
 }

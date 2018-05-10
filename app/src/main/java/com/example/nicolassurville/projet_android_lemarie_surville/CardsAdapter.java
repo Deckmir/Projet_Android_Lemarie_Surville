@@ -65,7 +65,7 @@ class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> {
 
         public CardHolder(View itemView) {
             super(itemView);
-            name = (TextView) itemView.findViewById(R.id.name1);
+            name = (TextView) itemView.findViewById(R.id.rv_bier_element_name);
             cardClass = (TextView) itemView.findViewById(R.id.creation);
             cost = (TextView) itemView.findViewById(R.id.year);
         }
