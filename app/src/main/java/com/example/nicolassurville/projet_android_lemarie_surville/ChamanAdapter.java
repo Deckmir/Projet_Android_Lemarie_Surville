@@ -15,12 +15,12 @@ import org.json.JSONObject;
 import java.util.zip.Inflater;
 
 
-class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> {
+class ChamanAdapter extends RecyclerView.Adapter<ChamanAdapter.CardHolder> {
 
     private JSONArray cards;
 
 
-    public CardsAdapter(JSONArray cards){
+    public ChamanAdapter(JSONArray cards) {
         this.cards = cards;
     }
 
@@ -28,7 +28,7 @@ class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> {
     @Override
     public CardHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View view = inflater.inflate(R.layout.rv_card_element,parent,false);
+        View view = inflater.inflate(R.layout.rv_card_element, parent, false);
         return new CardHolder(view);
     }
 
@@ -51,34 +51,33 @@ class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> {
         return cards.length();
     }
 
-    public void setNewCards(JSONArray cards){
+    public void setNewCards(JSONArray cards) {
         this.cards = cards;
         notifyDataSetChanged();
     }
 
 
-
     public class CardHolder extends ViewHolder {
         private final TextView name;
         private final TextView cardClass;
-        private final TextView cost;
 
         public CardHolder(View itemView) {
             super(itemView);
             name = (TextView) itemView.findViewById(R.id.name1);
             cardClass = (TextView) itemView.findViewById(R.id.creation);
-            cost = (TextView) itemView.findViewById(R.id.year);
+
         }
 
 
         public void display(JSONObject obj) {
-            try {
 
+            try {
                 name.setText(obj.getString("name"));
                 cardClass.setText(obj.getString("cardClass"));
-                cost.setText(obj.getString("cost"));
             } catch (JSONException e) {
-                e.printStackTrace();
+
+                 e.printStackTrace();
+
             }
 
         }

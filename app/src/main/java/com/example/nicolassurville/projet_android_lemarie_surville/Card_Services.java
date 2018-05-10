@@ -52,7 +52,7 @@ public class Card_Services extends IntentService {
 
 
     private void handleActionCards() {
-        Log.d("tag","AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+
         URL url = null;
         try{
             url = new URL("https://api.hearthstonejson.com/v1/18336/frFR/cards.json");

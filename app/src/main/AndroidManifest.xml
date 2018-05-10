@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nicolassurville.projet_android_lemarie_surville">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +22,12 @@
 
         <service
             android:name=".Card_Services"
-            android:exported="false"></service>
+            android:exported="false" />
+
+        <activity
+            android:name=".ChamanActivity"
+            android:label="@string/title_activity_chaman"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
