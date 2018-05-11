@@ -62,10 +62,33 @@ public class SecondActivity extends AppCompatActivity {
 
     private void settings() {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-        alertDialogBuilder.setMessage(R.string.message_settings);
+        alertDialogBuilder.setMessage(R.string.add_notification);
         alertDialogBuilder.setPositiveButton(R.string.message_gotit, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface arg0, int arg1) {
+
+            }
+        });
+
+
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+    }
+
+
+    private void search() {
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        alertDialogBuilder.setMessage(R.string.add_notification);
+        alertDialogBuilder.setPositiveButton(R.string.message_no, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface arg0, int arg1) {
+
+            }
+        });
+        alertDialogBuilder.setNegativeButton(R.string.message_yes, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(SecondActivity.this, R.string.message_notif, Toast.LENGTH_LONG).show();
 
             }
         });
@@ -94,6 +117,7 @@ public class SecondActivity extends AppCompatActivity {
                 quit();
                 return true;
             case R.id.action_search:
+                search();
                 return true;
             case R.id.action_home:
                 Intent intent;
