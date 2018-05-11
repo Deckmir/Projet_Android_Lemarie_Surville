@@ -63,7 +63,7 @@ public class Card_Services extends IntentService {
                 copyInputStreamToFile(conn.getInputStream(),
                         new File(getCacheDir(), "Hearthstone.json"));
                 Log.d("tag","Hearthstone json downloaded :");
-                LocalBroadcastManager.getInstance(this).sendBroadcast(new Intent(SecondActivity.HEARTHSTONE_UPDATE));
+                LocalBroadcastManager.getInstance(this).sendBroadcast(new Intent(ChamanActivity.HEARTHSTONE_UPDATE));
             }
 
         } catch (MalformedURLException e) {

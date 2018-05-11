@@ -24,7 +24,11 @@
             android:name=".Card_Services"
             android:exported="false" />
 
-        <activity android:name=".ChamanActivity"></activity>
+        <activity android:name=".ChamanActivity" />
+        <activity
+            android:name=".trucActivity"
+            android:label="@string/title_activity_truc"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cartes HS</string>
+    <string name="message">Etes vous sûre, voulez-vous quitter?</string>
+    <string name="message_settings">A PROPOS Développer par Xhosty and Deckmir Version 1.0</string>
+    <string name="message_save">Sauvegarder</string>
+    <string name="message_delete">Supprimer</string>
+    <string name="message_no">Non</string>
+    <string name="message_yes">Oui</string>
+    <string name="message_quit">Quitter</string>
+    <string name="message_gotit">Ok</string>
+
+
+</resources>
