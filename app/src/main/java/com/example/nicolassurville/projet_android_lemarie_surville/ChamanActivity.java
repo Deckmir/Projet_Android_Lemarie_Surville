@@ -20,6 +20,12 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.Volley;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -27,32 +33,87 @@ import org.json.JSONObject;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ChamanActivity extends AppCompatActivity {
 
 
     private RecyclerView rv;
+    public static final String HEARTHSTONE_UPDATE = "https://raw.githubusercontent.com/Deckmir/Projet_Android_Lemarie_Surville/master/cards.json";
+    private JsonArrayRequest request;
+    private RequestQueue requestQueue;
+    private List<Cards> jeu;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chaman);
 
+
+        jeu = new ArrayList<>();
+
+
         Button btn = (Button) findViewById(R.id.ButtonSecondView);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 IntentFilter intentFilter = new IntentFilter(HEARTHSTONE_UPDATE);
-                LocalBroadcastManager.getInstance(ChamanActivity.this).registerReceiver(new CardUpdate(), intentFilter);
+               // LocalBroadcastManager.getInstance(ChamanActivity.this).registerReceiver(new CardUpdate(), intentFilter);
                 Card_Services.startActionCards(ChamanActivity.this);
 
             }
         });
 
         rv = (RecyclerView) findViewById(R.id.rv_chaman);
-        rv.setLayoutManager(new LinearLayoutManager(this));
-        rv.setAdapter(new CardsAdapter(getCardsFromFile()));
+        lancement_JSON();
     }
+    private void lancement_JSON(){
+
+        request= new JsonArrayRequest(HEARTHSTONE_UPDATE, new Response.Listener<JSONArray>() {
+            @Override
+            public void onResponse(JSONArray response) {
+                JSONObject jsonObject = null;
+                for (int i = 0; i < response.length(); i++) {
+                    try {
+                        jsonObject = response.getJSONObject(i);
+                        Cards cards = new Cards();
+                        cards.setName(jsonObject.getString("name"));
+                        cards.setAttaque(jsonObject.getString("attack"));
+                        cards.setCout(jsonObject.getString("cost"));
+                        cards.setclasse(jsonObject.getString("playerClass"));
+                        cards.setPoint_de_vie(jsonObject.getString("health"));
+                        cards.setImage_url(jsonObject.getString("img"));
+                        jeu.add(cards);
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                }
+                setuprecyclerview(jeu);
+
+            }
+
+
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+        requestQueue = Volley.newRequestQueue(ChamanActivity.this);
+        requestQueue.add(request);
+
+    }
+    private void setuprecyclerview( List<Cards> jeu){
+
+        CardsAdapter myadapter = new CardsAdapter(this,jeu);
+        rv.setLayoutManager(new LinearLayoutManager(this));
+
+        rv.setAdapter((myadapter));
+    }
+
 
     private void quit(){
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
@@ -100,7 +161,7 @@ public class ChamanActivity extends AppCompatActivity {
     //gère le click sur une action de l'ActionBar
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
 
             case R.id.action_settings:
                 settings();
@@ -118,41 +179,5 @@ public class ChamanActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    public static final String HEARTHSTONE_UPDATE = "com.example.nicolassurville.projet_android_lemarie_surville.HEARTHSTONE_UPDATE";
-
-    public class CardUpdate extends BroadcastReceiver {
-
-        @Override
-        public void onReceive(Context context, Intent intent) {
-
-            Log.d("tag", "OnReceive");
-            CardsAdapter adapter = (CardsAdapter) rv.getAdapter();
-
-            adapter.setNewCards(getCardsFromFile());
-
-
-        }
-    }
-
-    public JSONArray getCardsFromFile() {
-        try {
-            InputStream is = new FileInputStream(getCacheDir() + "/" + "Hearthstone.json");
-            byte[] buffer = new byte[is.available()];
-            is.read(buffer);
-            is.close();
-            JSONArray test = new JSONArray(new String(buffer,"utf-8"));
-            int length = test.length();
-
-            Log.d("tag", "Longueur : " + Integer.toString(length));
-            return test; // construction du tableau
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-
-        return new JSONArray();
     }
 }
