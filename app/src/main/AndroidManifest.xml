@@ -12,24 +12,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
+        <activity android:name=".Activity.SecondActivity" />
 
         <service
-            android:name=".Card_Services"
+            android:name=".Cards.Card_Services"
             android:exported="false" />
 
-        <activity android:name=".ChamanActivity" />
-        <activity
-            android:name=".trucActivity"
-            android:label="@string/title_activity_truc"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activity.ChamanActivity" />
+
     </application>
 
 </manifest>

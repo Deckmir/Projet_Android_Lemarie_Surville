@@ -1,27 +1,21 @@
-package com.example.nicolassurville.projet_android_lemarie_surville;
+package com.example.nicolassurville.projet_android_lemarie_surville.Cards;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.ViewHolder;
-import android.text.Layout;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.example.nicolassurville.projet_android_lemarie_surville.R;
 
 import java.util.List;
-import java.util.zip.Inflater;
 
 
-class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> {
+public class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> {
 
 
     private Context mContext;
@@ -39,6 +33,10 @@ class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> {
     public CardHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View view = inflater.inflate(R.layout.rv_card_element,parent,false);
+        final CardHolder cardHolder= new CardHolder(view);
+
+
+
         return new CardHolder(view);
     }
 
@@ -77,7 +75,7 @@ class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> {
         public CardHolder(View itemView) {
             super(itemView);
             tv_name = (TextView) itemView.findViewById(R.id.rv_card_name);
-            tv_cardClass = (TextView) itemView.findViewById(R.id.rv_playerClass);
+            //tv_cardClass = (TextView) itemView.findViewById(R.id.rv_playerClass);
             img_URL = itemView.findViewById(R.id.rv_img);
     //        cost = (TextView) itemView.findViewById(R.id.rv_cost);
         }

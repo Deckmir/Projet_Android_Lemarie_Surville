@@ -1,4 +1,4 @@
-package com.example.nicolassurville.projet_android_lemarie_surville;
+package com.example.nicolassurville.projet_android_lemarie_surville.Activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -10,6 +10,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.nicolassurville.projet_android_lemarie_surville.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private CardView Chaman;
@@ -87,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         Intent intent;
         if (v.getId()== R.id.Chaman) {
-            intent = new Intent(this, ChamanActivity.class);
+            intent = new Intent(this, SecondActivity.class);
             startActivity(intent);
         }
     }

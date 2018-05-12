@@ -1,4 +1,4 @@
-package com.example.nicolassurville.projet_android_lemarie_surville;
+package com.example.nicolassurville.projet_android_lemarie_surville.Cards;
 
 /**
  * Created by nicolas on 11/05/2018.

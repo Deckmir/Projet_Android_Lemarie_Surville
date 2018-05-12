@@ -30,17 +30,7 @@
         android:textSize="40dp"
         android:textStyle="bold"
         />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
-        <TextView
-            android:id="@+id/rv_playerClass"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/rv_card_name"
-            android:text="Type de la carte"
-            android:textSize="35dp" />
+
 </LinearLayout>
 
 </LinearLayout>

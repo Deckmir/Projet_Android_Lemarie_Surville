@@ -1,11 +1,12 @@
-package com.example.nicolassurville.projet_android_lemarie_surville;
+package com.example.nicolassurville.projet_android_lemarie_surville.Cards;
 
 import android.app.IntentService;
 import android.content.Context;
 import android.content.Intent;
-import android.nfc.Tag;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
+
+import com.example.nicolassurville.projet_android_lemarie_surville.Activity.ChamanActivity;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -15,7 +16,6 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.sql.Connection;
 
 
 /**
