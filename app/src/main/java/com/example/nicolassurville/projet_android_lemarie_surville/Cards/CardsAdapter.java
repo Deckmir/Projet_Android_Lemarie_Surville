@@ -1,5 +1,6 @@
 package com.example.nicolassurville.projet_android_lemarie_surville.Cards;
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.example.nicolassurville.projet_android_lemarie_surville.Activity.SecondActivity;
 import com.example.nicolassurville.projet_android_lemarie_surville.R;
 
 import java.util.List;
@@ -33,11 +35,27 @@ public class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> 
     public CardHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View view = inflater.inflate(R.layout.rv_card_element,parent,false);
-        final CardHolder cardHolder= new CardHolder(view);
+        final CardHolder cardHolder = new CardHolder(view);
+        cardHolder.Lin_container.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(mContext, SecondActivity.class);
+                intent.putExtra("name",cards.get(cardHolder.getAdapterPosition()).getName());
+                intent.putExtra("playerClass",cards.get(cardHolder.getAdapterPosition()).getclasse());
+                intent.putExtra("img",cards.get(cardHolder.getAdapterPosition()).getImage_url());
+                intent.putExtra("cost",cards.get(cardHolder.getAdapterPosition()).getCout());
+                intent.putExtra("health",cards.get(cardHolder.getAdapterPosition()).getPoint_de_vie());
+                intent.putExtra("attack",cards.get(cardHolder.getAdapterPosition()).getAttaque());
+                intent.putExtra("race",cards.get(cardHolder.getAdapterPosition()).getRace());
+
+                mContext.startActivity(intent);
+            }
+        });
 
 
 
-        return new CardHolder(view);
+        return cardHolder;
     }
 
     @Override
@@ -45,6 +63,7 @@ public class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> 
 
         holder.tv_name.setText(cards.get(position).getName());
         holder.tv_cardClass.setText(cards.get(position).getclasse());
+
 
 
         Glide.with(mContext).load(cards.get(position).getImage_url()).apply(option).into(holder.img_URL);
@@ -70,14 +89,16 @@ public class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> 
         TextView tv_name;
         TextView tv_cardClass;
         ImageView img_URL;
-       // private final TextView cost;
+        LinearLayout Lin_container;
 
         public CardHolder(View itemView) {
             super(itemView);
+            Lin_container= itemView.findViewById(R.id.container);
             tv_name = (TextView) itemView.findViewById(R.id.rv_card_name);
-            //tv_cardClass = (TextView) itemView.findViewById(R.id.rv_playerClass);
+            tv_cardClass = (TextView) itemView.findViewById(R.id.rv_playerClass);
             img_URL = itemView.findViewById(R.id.rv_img);
-    //        cost = (TextView) itemView.findViewById(R.id.rv_cost);
+
+
         }
 
 

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E5CEA4"
     tools:context=".Activity.ChamanActivity">
     <Button
         android:layout_width="wrap_content"
@@ -17,5 +18,6 @@
         android:id="@+id/rv_chaman"
         android:layout_below="@id/ButtonSecondView"
         />
+
 
 </RelativeLayout>

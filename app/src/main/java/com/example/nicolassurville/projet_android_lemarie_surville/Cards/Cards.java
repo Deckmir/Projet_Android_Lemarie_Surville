@@ -11,19 +11,21 @@ public class Cards {
     private String attaque;
     private String point_de_vie;
     private String cout;
+    private String race;
     private String image_url;
 
     public Cards(){
 
     }
 
-    public Cards (String name, String classe, String attaque, String point_de_vie, String cout, String image_url){
+    public Cards (String name, String classe, String attaque, String point_de_vie, String cout,String race, String image_url){
         this.name= name;
         this.classe = classe;
         this.attaque= attaque;
         this.point_de_vie= point_de_vie;
         this.cout= cout;
         this.image_url= image_url;
+       // this.race= race;
     }
     public String getName() {
         return name;
@@ -63,6 +65,10 @@ public class Cards {
     public void setCout(String cout) {
         this.cout = cout;
     }
+
+    public String getRace(){return race;}
+
+    public void setRace(String race){this.race= race;}
 
     public String getImage_url() {
         return image_url;

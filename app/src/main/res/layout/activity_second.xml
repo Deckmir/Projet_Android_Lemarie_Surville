@@ -15,7 +15,7 @@
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/Collops_Id"
+            android:id="@+id/collapsing"
             app:layout_scrollFlags="exitUntilCollapsed|scroll"
             app:title="Nom de la carte"
 
@@ -37,7 +37,7 @@
             <ImageView
                 android:layout_width="180dp"
                 android:layout_height="250dp"
-                android:id="@+id/rv_img_2"
+                android:id="@+id/p_img"
 
                 />
             <LinearLayout
@@ -87,8 +87,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:layout_toLeftOf="@+id/rarete"
-                android:layout_toStartOf="@+id/rarete"
+                android:layout_toLeftOf="@+id/p_rare"
+                android:layout_toStartOf="@+id/p_rare"
                 app:srcCompat="@drawable/mana" />
 
             <ImageView
@@ -118,8 +118,8 @@
                 android:layout_alignTop="@+id/textView8"
                 android:layout_marginEnd="15dp"
                 android:layout_marginRight="15dp"
-                android:layout_toLeftOf="@+id/rarete"
-                android:layout_toStartOf="@+id/rarete"
+                android:layout_toLeftOf="@+id/p_rare"
+                android:layout_toStartOf="@+id/p_rare"
                 app:srcCompat="@drawable/legendaire" />
 
             <TextView
@@ -140,7 +140,7 @@
 
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/Textview2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -243,34 +243,34 @@
 
 
             <TextView
-                android:id="@+id/coutmana"
+                android:id="@+id/p_cout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignTop="@+id/textView3"
+                android:layout_alignTop="@+id/Textview2"
                 android:layout_toEndOf="@+id/textView"
                 android:layout_toRightOf="@+id/textView"
                 android:text="cout en mana" />
 
             <TextView
-                android:id="@+id/coutattaque"
+                android:id="@+id/p_attaque"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/textView4"
-                android:layout_alignLeft="@+id/coutmana"
-                android:layout_alignStart="@+id/coutmana"
+                android:layout_alignLeft="@+id/p_cout"
+                android:layout_alignStart="@+id/p_cout"
                 android:text="cout attaque" />
 
             <TextView
-                android:id="@+id/coutvie"
+                android:id="@+id/p_vie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/textView5"
-                android:layout_alignLeft="@+id/coutattaque"
-                android:layout_alignStart="@+id/coutattaque"
+                android:layout_alignLeft="@+id/p_attaque"
+                android:layout_alignStart="@+id/p_attaque"
                 android:text="cout vie" />
 
             <TextView
-                android:id="@+id/race"
+                android:id="@+id/p_race"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/textView6"
@@ -282,23 +282,23 @@
                 android:id="@+id/description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/race"
-                android:layout_alignStart="@+id/race"
+                android:layout_alignLeft="@+id/p_race"
+                android:layout_alignStart="@+id/p_race"
                 android:layout_alignTop="@+id/textView7"
                 android:text="description" />
 
             <TextView
-                android:id="@+id/rarete"
+                android:id="@+id/p_rare"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@+id/textView8"
                 android:layout_alignBottom="@+id/textView8"
-                android:layout_toLeftOf="@+id/coutvie"
-                android:layout_toStartOf="@+id/coutvie"
+                android:layout_toLeftOf="@+id/p_vie"
+                android:layout_toStartOf="@+id/p_vie"
                 android:text="rarete" />
 
             <TextView
-                android:id="@+id/classe"
+                android:id="@+id/p_classe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@+id/textView9"

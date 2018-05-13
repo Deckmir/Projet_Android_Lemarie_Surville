@@ -89,7 +89,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         Intent intent;
         if (v.getId()== R.id.Chaman) {
-            intent = new Intent(this, SecondActivity.class);
+            intent = new Intent(this, ChamanActivity.class);
+
             startActivity(intent);
         }
     }
