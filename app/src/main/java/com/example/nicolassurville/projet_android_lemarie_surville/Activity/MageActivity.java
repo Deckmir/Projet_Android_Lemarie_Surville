@@ -31,7 +31,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChamanActivity extends AppCompatActivity {
+public class MageActivity extends AppCompatActivity {
 
 
     private RecyclerView rv;
@@ -44,7 +44,7 @@ public class ChamanActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chaman);
+        setContentView(R.layout.activity_mage);
 
 
         jeu = new ArrayList<>();
@@ -55,12 +55,12 @@ public class ChamanActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 IntentFilter intentFilter = new IntentFilter(HEARTHSTONE_UPDATE);
-                Card_Services.startActionCards(ChamanActivity.this);
+                Card_Services.startActionCards(MageActivity.this);
 
             }
         });
 
-        rv = (RecyclerView) findViewById(R.id.rv_chaman);
+        rv = (RecyclerView) findViewById(R.id.rv_mage);
         lancement_JSON();
     }
     private void lancement_JSON(){
@@ -77,7 +77,7 @@ public class ChamanActivity extends AppCompatActivity {
                         Cards cards = new Cards();
 
 
-                        if(jsonObject.getString("playerClass").equals("Shaman")) {
+                        if(jsonObject.getString("playerClass").equals("Mage")) {
                             cards.setclasse(jsonObject.getString("playerClass"));
                             cards.setName(jsonObject.getString("name"));
                             cards.setAttaque(jsonObject.getString("attack"));
@@ -107,7 +107,7 @@ public class ChamanActivity extends AppCompatActivity {
             }
         });
 
-        requestQueue = Volley.newRequestQueue(ChamanActivity.this);
+        requestQueue = Volley.newRequestQueue(MageActivity.this);
         requestQueue.add(request);
 
     }
@@ -132,7 +132,7 @@ public class ChamanActivity extends AppCompatActivity {
         alertDialogBuilder.setNegativeButton(R.string.message_yes,new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(ChamanActivity.this,R.string.message_quit,Toast.LENGTH_LONG).show();
+                Toast.makeText(MageActivity.this,R.string.message_quit,Toast.LENGTH_LONG).show();
                 finish();
             }
         });

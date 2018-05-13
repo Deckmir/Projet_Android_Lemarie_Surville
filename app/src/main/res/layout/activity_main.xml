@@ -58,13 +58,15 @@
                 android:id="@+id/Chasseur"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:clickable="true">
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
-                    android:background="@drawable/chasseur_avatar" />
+                    android:background="@drawable/chasseur_avatar"
+                    android:cropToPadding="true"/>
             </android.support.v7.widget.CardView>
 
             <TextView
@@ -78,13 +80,15 @@
                 android:id="@+id/Demoniste"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:clickable="true">
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
-                    android:background="@drawable/demoniste_avatar" />
+                    android:background="@drawable/demoniste_avatar"
+                    android:cropToPadding="true"/>
             </android.support.v7.widget.CardView>
 
             <TextView
@@ -98,13 +102,15 @@
                 android:id="@+id/Druide"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:clickable="true">
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
-                    android:background="@drawable/druid_avatar" />
+                    android:background="@drawable/druid_avatar"
+                    android:cropToPadding="true"/>
             </android.support.v7.widget.CardView>
 
 
@@ -119,13 +125,15 @@
                 android:id="@+id/Guerrier"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:clickable="true">
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
-                    android:background="@drawable/guerrier_avatar" />
+                    android:background="@drawable/guerrier_avatar"
+                    android:cropToPadding="true"/>
             </android.support.v7.widget.CardView>
 
 
@@ -140,13 +148,15 @@
                 android:id="@+id/Mage"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:clickable="true">
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
-                    android:background="@drawable/mage_avatar" />
+                    android:background="@drawable/mage_avatar"
+                    android:cropToPadding="true"/>
             </android.support.v7.widget.CardView>
 
             <TextView
@@ -160,13 +170,15 @@
                 android:id="@+id/Paladin"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:clickable="true">
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
-                    android:background="@drawable/paladin_avatar" />
+                    android:background="@drawable/paladin_avatar"
+                    android:cropToPadding="true"/>
             </android.support.v7.widget.CardView>
 
             <TextView
@@ -180,13 +192,15 @@
                 android:id="@+id/Pretre"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:clickable="true">
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
-                    android:background="@drawable/pretre_avatar" />
+                    android:background="@drawable/pretre_avatar"
+                    android:cropToPadding="true"/>
             </android.support.v7.widget.CardView>
 
             <TextView
@@ -200,13 +214,15 @@
                 android:id="@+id/Voleur"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:clickable="true">
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
-                    android:background="@drawable/voleur_avatar" />
+                    android:background="@drawable/voleur_avatar"
+                    android:cropToPadding="true"/>
             </android.support.v7.widget.CardView>
         </LinearLayout>
 
