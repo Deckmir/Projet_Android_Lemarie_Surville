@@ -7,25 +7,31 @@ package com.example.nicolassurville.projet_android_lemarie_surville.Cards;
 public class Cards {
 
     private String name;
+    private String type;
     private String classe;
     private String attaque;
     private String point_de_vie;
     private String cout;
     private String race;
     private String image_url;
+    private String rare;
+    private String description;
 
     public Cards(){
 
     }
 
-    public Cards (String name, String classe, String attaque, String point_de_vie, String cout,String race, String image_url){
+    public Cards (String name, String classe, String attaque, String point_de_vie, String cout,String race,String rare,String description, String type, String image_url){
         this.name= name;
         this.classe = classe;
         this.attaque= attaque;
         this.point_de_vie= point_de_vie;
         this.cout= cout;
         this.image_url= image_url;
-       // this.race= race;
+        this.race= race;
+        this.type = type;
+        this.rare = rare;
+        this.description=description;
     }
     public String getName() {
         return name;
@@ -65,6 +71,20 @@ public class Cards {
     public void setCout(String cout) {
         this.cout = cout;
     }
+
+    public  String getRare(){return rare;}
+
+    public void setRare(String rare ){this.rare=rare;}
+
+    public void setType(String cout) {
+        this.type = type;
+    }
+
+    public String getType(){return type;}
+
+    public void setDescription(String description){this.description = description;}
+
+    public String getDescription(){return description;}
 
     public String getRace(){return race;}
 

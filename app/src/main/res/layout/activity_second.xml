@@ -12,14 +12,16 @@
         android:layout_height="300dp"
         android:id="@+id/AppBar_Id"
     >
+
         <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/collapsing"
             app:layout_scrollFlags="exitUntilCollapsed|scroll"
             app:title="Nom de la carte"
 
             >
+
             <android.support.v7.widget.Toolbar
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize">
@@ -32,36 +34,36 @@
                 android:background="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:focusable="true"
-                android:orientation="horizontal"
-                >
-            <ImageView
-                android:layout_width="180dp"
-                android:layout_height="250dp"
-                android:id="@+id/p_img"
+                android:orientation="horizontal">
 
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/rv_card_name_2"
-                android:layout_alignParentTop="true"
-                android:textSize="40dp"
-                android:textStyle="bold"
-                />
+                <ImageView
+                    android:id="@+id/p_img"
+                    android:layout_width="180dp"
+                    android:layout_height="250dp"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/rv_card_name_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:textSize="40dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
             </LinearLayout>
 
-            </LinearLayout>
-            
         </android.support.design.widget.CollapsingToolbarLayout>
-
 
 
     </android.support.design.widget.AppBarLayout>
@@ -73,13 +75,11 @@
         >
 
 
-
         <RelativeLayout
 
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#E5CEA4"
-            >
+            android:layout_height="550dp"
+            android:background="#E5CEA4">
 
 
             <ImageView
@@ -138,14 +138,14 @@
                 android:textStyle="bold" />
 
 
-
             <TextView
                 android:id="@+id/Textview2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView"
+                android:layout_alignBottom="@+id/textView"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginTop="19dp"
                 android:text="Coût en mana"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
@@ -241,7 +241,6 @@
                 android:textStyle="bold" />
 
 
-
             <TextView
                 android:id="@+id/p_cout"
                 android:layout_width="wrap_content"
@@ -279,7 +278,7 @@
                 android:text="race" />
 
             <TextView
-                android:id="@+id/description"
+                android:id="@+id/p_description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@+id/p_race"
@@ -308,7 +307,7 @@
                 android:text="classe" />
 
             <TextView
-                android:id="@+id/type"
+                android:id="@+id/p_type"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@+id/imageLeg"

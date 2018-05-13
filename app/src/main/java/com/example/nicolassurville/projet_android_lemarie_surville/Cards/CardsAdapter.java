@@ -48,6 +48,9 @@ public class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> 
                 intent.putExtra("health",cards.get(cardHolder.getAdapterPosition()).getPoint_de_vie());
                 intent.putExtra("attack",cards.get(cardHolder.getAdapterPosition()).getAttaque());
                 intent.putExtra("race",cards.get(cardHolder.getAdapterPosition()).getRace());
+                intent.putExtra("rarity",cards.get(cardHolder.getAdapterPosition()).getRare());
+                intent.putExtra("type",cards.get(cardHolder.getAdapterPosition()).getType());
+                intent.putExtra("text", cards.get(cardHolder.getAdapterPosition()).getDescription());
 
                 mContext.startActivity(intent);
             }

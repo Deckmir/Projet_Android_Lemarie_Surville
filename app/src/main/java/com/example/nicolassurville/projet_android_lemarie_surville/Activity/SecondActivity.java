@@ -29,7 +29,10 @@ public class SecondActivity extends AppCompatActivity {
         String cout =getIntent().getExtras().getString("cost");
         String classe =getIntent().getExtras().getString("playerClass");
         String race =getIntent().getExtras().getString("race");
+        String rare = getIntent().getExtras().getString("rarity");
         String img_url =getIntent().getExtras().getString("img");
+        String type=getIntent().getExtras().getString("type");
+        String description=getIntent().getExtras().getString("text");
 
         CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsing);
         collapsingToolbarLayout.setTitleEnabled(true);
@@ -40,7 +43,11 @@ public class SecondActivity extends AppCompatActivity {
         TextView tv_cout=findViewById(R.id.p_cout);
         TextView tv_classe=findViewById(R.id.p_classe);
         TextView tv_race=findViewById(R.id.p_race);
+        TextView tv_rare=findViewById(R.id.p_rare);
+        TextView tv_type= findViewById(R.id.p_type);
+        TextView tv_description=findViewById(R.id.p_description);
         ImageView iv_img=findViewById(R.id.p_img);
+
 
 
         //tv_name.setText(name);
@@ -49,6 +56,9 @@ public class SecondActivity extends AppCompatActivity {
         tv_cout.setText(cout);
         tv_classe.setText(classe);
         tv_race.setText(race);
+        tv_rare.setText(rare);
+        tv_type.setText(type);
+        tv_description.setText(description);
 
         Glide.with(this).load(img_url).into(iv_img);
 

@@ -81,6 +81,9 @@ public class ChamanActivity extends AppCompatActivity {
                         cards.setPoint_de_vie(jsonObject.getString("health"));
                         cards.setImage_url(jsonObject.getString("img"));
                         cards.setRace(jsonObject.getString("race"));
+                        cards.setRare(jsonObject.getString("rarity"));
+                        cards.setType(jsonObject.getString("type"));
+                        cards.setDescription(jsonObject.getString("text"));
                         jeu.add(cards);
                     } catch (JSONException e) {
                         e.printStackTrace();
