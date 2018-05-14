@@ -78,17 +78,16 @@ public class ChasseurActivity extends AppCompatActivity {
 
 
                         if(jsonObject.getString("playerClass").equals("Hunter")) {
-                            cards.setclasse(jsonObject.getString("playerClass"));
                             cards.setName(jsonObject.getString("name"));
-                            cards.setAttaque(jsonObject.getString("attack"));
+                            cards.setType(jsonObject.getString("type"));
+                            cards.setRare(jsonObject.getString("rarity"));
                             cards.setCout(jsonObject.getString("cost"));
-                            cards.setclasse(jsonObject.getString("playerClass"));
+                            cards.setAttaque(jsonObject.getString("attack"));
                             cards.setPoint_de_vie(jsonObject.getString("health"));
+                            cards.setDescription(jsonObject.getString("text"));
+                            cards.setclasse(jsonObject.getString("playerClass"));
                             cards.setImage_url(jsonObject.getString("img"));
                             cards.setRace(jsonObject.getString("race"));
-                            cards.setRare(jsonObject.getString("rarity"));
-                            cards.setType(jsonObject.getString("type"));
-                            cards.setDescription(jsonObject.getString("text"));
                             jeu.add(cards);
                         }
                     } catch (JSONException e) {
