@@ -31,7 +31,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PretreActivity extends AppCompatActivity {
+public class DemonisteActivity extends AppCompatActivity {
 
 
     private RecyclerView rv;
@@ -44,7 +44,7 @@ public class PretreActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pretre);
+        setContentView(R.layout.activity_demoniste);
 
 
         jeu = new ArrayList<>();
@@ -55,11 +55,12 @@ public class PretreActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 IntentFilter intentFilter = new IntentFilter(HEARTHSTONE_UPDATE);
-                Card_Services.startActionCards(PretreActivity.this);
+                Card_Services.startActionCards(DemonisteActivity.this);
+
             }
         });
 
-        rv = (RecyclerView) findViewById(R.id.rv_pretre);
+        rv = (RecyclerView) findViewById(R.id.rv_demoniste);
         lancement_JSON();
     }
     private void lancement_JSON(){
@@ -76,7 +77,7 @@ public class PretreActivity extends AppCompatActivity {
                         Cards cards = new Cards();
 
 
-                        if(jsonObject.getString("playerClass").equals("Priest")) {
+                        if(jsonObject.getString("playerClass").equals("WarLock")) {
                             cards.setclasse(jsonObject.getString("playerClass"));
                             cards.setName(jsonObject.getString("name"));
                             cards.setAttaque(jsonObject.getString("attack"));
@@ -106,7 +107,7 @@ public class PretreActivity extends AppCompatActivity {
             }
         });
 
-        requestQueue = Volley.newRequestQueue(PretreActivity.this);
+        requestQueue = Volley.newRequestQueue(DemonisteActivity.this);
         requestQueue.add(request);
 
     }
@@ -131,7 +132,7 @@ public class PretreActivity extends AppCompatActivity {
         alertDialogBuilder.setNegativeButton(R.string.message_yes,new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(PretreActivity.this,R.string.message_quit,Toast.LENGTH_LONG).show();
+                Toast.makeText(DemonisteActivity.this,R.string.message_quit,Toast.LENGTH_LONG).show();
                 finish();
             }
         });

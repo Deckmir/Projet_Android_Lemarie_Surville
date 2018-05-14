@@ -31,7 +31,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PretreActivity extends AppCompatActivity {
+public class GuerrierActivity extends AppCompatActivity {
 
 
     private RecyclerView rv;
@@ -44,7 +44,7 @@ public class PretreActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pretre);
+        setContentView(R.layout.activity_guerrier);
 
 
         jeu = new ArrayList<>();
@@ -55,11 +55,12 @@ public class PretreActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 IntentFilter intentFilter = new IntentFilter(HEARTHSTONE_UPDATE);
-                Card_Services.startActionCards(PretreActivity.this);
+                Card_Services.startActionCards(GuerrierActivity.this);
+
             }
         });
 
-        rv = (RecyclerView) findViewById(R.id.rv_pretre);
+        rv = (RecyclerView) findViewById(R.id.rv_guerrier);
         lancement_JSON();
     }
     private void lancement_JSON(){
@@ -76,18 +77,21 @@ public class PretreActivity extends AppCompatActivity {
                         Cards cards = new Cards();
 
 
-                        if(jsonObject.getString("playerClass").equals("Priest")) {
-                            cards.setclasse(jsonObject.getString("playerClass"));
+                        if(jsonObject.getString("playerClass").equals("Warrior")) {
+
                             cards.setName(jsonObject.getString("name"));
-                            cards.setAttaque(jsonObject.getString("attack"));
+                            cards.setType(jsonObject.getString("type"));
+                            cards.setRare(jsonObject.getString("rarity"));
                             cards.setCout(jsonObject.getString("cost"));
-                            cards.setclasse(jsonObject.getString("playerClass"));
+                            cards.setAttaque(jsonObject.getString("attack"));
                             cards.setPoint_de_vie(jsonObject.getString("health"));
+                            cards.setDescription(jsonObject.getString("text"));
+                            cards.setclasse(jsonObject.getString("playerClass"));
                             cards.setImage_url(jsonObject.getString("img"));
                             cards.setRace(jsonObject.getString("race"));
-                            cards.setRare(jsonObject.getString("rarity"));
-                            cards.setType(jsonObject.getString("type"));
-                            cards.setDescription(jsonObject.getString("text"));
+
+
+
                             jeu.add(cards);
                         }
                     } catch (JSONException e) {
@@ -106,7 +110,7 @@ public class PretreActivity extends AppCompatActivity {
             }
         });
 
-        requestQueue = Volley.newRequestQueue(PretreActivity.this);
+        requestQueue = Volley.newRequestQueue(GuerrierActivity.this);
         requestQueue.add(request);
 
     }
@@ -131,7 +135,7 @@ public class PretreActivity extends AppCompatActivity {
         alertDialogBuilder.setNegativeButton(R.string.message_yes,new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(PretreActivity.this,R.string.message_quit,Toast.LENGTH_LONG).show();
+                Toast.makeText(GuerrierActivity.this,R.string.message_quit,Toast.LENGTH_LONG).show();
                 finish();
             }
         });

@@ -15,13 +15,37 @@ import com.example.nicolassurville.projet_android_lemarie_surville.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private CardView Chaman;
+    private CardView Chasseur;
+    private CardView Demoniste;
+    private CardView Druide;
+    private CardView Guerrier;
+    private CardView Mage;
+    private CardView Paladin;
+    private CardView Pretre;
+    private CardView Voleur;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Chaman=(CardView) findViewById(R.id.Chaman);
+        Chasseur=(CardView)findViewById(R.id.Chasseur);
+        Demoniste=(CardView)findViewById(R.id.Demoniste);
+        Druide=(CardView)findViewById(R.id.Druide);
+        Guerrier=(CardView)findViewById(R.id.Guerrier);
+        Mage = (CardView)findViewById(R.id.Mage);
+        Paladin=(CardView)findViewById(R.id.Paladin);
+        Pretre =(CardView)findViewById(R.id.Pretre);
+        Voleur=(CardView)findViewById(R.id.Voleur);
 
         Chaman.setOnClickListener(this);
+        Chasseur.setOnClickListener(this);
+        Demoniste.setOnClickListener(this);
+        Druide.setOnClickListener(this);
+        Guerrier.setOnClickListener(this);
+        Mage.setOnClickListener(this);
+        Paladin.setOnClickListener(this);
+        Pretre.setOnClickListener(this);
+        Voleur.setOnClickListener(this);
     }
 
     private void quit() {
@@ -98,14 +122,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(this, ChasseurActivity.class);
                 startActivity(intent);
                 break;
-
+            case(R.id.Demoniste):
+                intent = new Intent(this, DemonisteActivity.class);
+                startActivity(intent);
+                break;
+            case(R.id.Druide):
+                intent = new Intent(this, DruideActivity.class);
+                startActivity(intent);
+                break;
+            case(R.id.Guerrier):
+                intent = new Intent(this, GuerrierActivity.class);
+                startActivity(intent);
+                break;
             case(R.id.Mage):
                 intent = new Intent(this, MageActivity.class);
                 startActivity(intent);
                 break;
-
+            case(R.id.Paladin):
+                intent = new Intent(this, PaladinActivity.class);
+                startActivity(intent);
+                break;
             case(R.id.Pretre):
                 intent = new Intent(this, PretreActivity.class);
+                startActivity(intent);
+                break;
+            case(R.id.Voleur):
+                intent = new Intent(this, VoleurActivity.class);
                 startActivity(intent);
                 break;
 

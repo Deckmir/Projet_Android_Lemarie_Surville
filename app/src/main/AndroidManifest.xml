@@ -28,7 +28,12 @@
         <activity android:name=".Activity.ChamanActivity" />
         <activity android:name=".Activity.ChasseurActivity" />
         <activity android:name=".Activity.MageActivity" />
-        <activity android:name=".Activity.PretreActivity"></activity>
+        <activity android:name=".Activity.PretreActivity" />
+        <activity android:name=".Activity.DemonisteActivity" />
+        <activity android:name=".Activity.DruideActivity" />
+        <activity android:name=".Activity.GuerrierActivity" />
+        <activity android:name=".Activity.PaladinActivity" />
+        <activity android:name=".Activity.VoleurActivity"></activity>
     </application>
 
 </manifest>
