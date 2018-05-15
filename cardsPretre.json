@@ -1,0 +1,87 @@
+[
+
+{
+ 	
+ 	"name": "Puits de lumiere",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 2,
+ 	"attack": 0,
+ 	"health": 5,
+	"race": "Minion",
+ 	"text": "Au début de votre tour, rend 3 PV à un personnage allié blessé.",
+ 	"playerClass": "Priest",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_341.png"
+ },
+
+{
+ 
+ 	"name": "Pretresse auchenai",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 4,
+ 	"attack": 3,
+ 	"health": 5,
+ 	"text": "Vos cartes et pouvoirs rendant de la Vie infligent désormais des dégâts à la place.",
+	"race": "Minion",
+ 	"playerClass": "Priest",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_591.png"
+ },
+{
+ 
+ 	"name": "Rejeton de lumiere",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 4,
+ 	"attack": 0,
+ 	"health": 5,
+ 	"text": "L’Attaque de ce serviteur est toujours égale à sa Vie.",
+ 	"race": "Elemental",
+ 	"playerClass": "Priest",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_335.png"
+ },
+{
+ 	
+ 	"name": "Massacreur du temple",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 6,
+ 	"attack": 6,
+ 	"health": 6,
+ 	"text": "Cri de guerre: donne +3_PV à un serviteur allie.",
+	"race":"Minion",
+ 	"playerClass": "Priest",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_623.png"
+ },{
+ 
+ 	"name": "Pretresse de la Cabale",
+ 	"type": "Minion",
+ 	"rarity": "Epic",
+ 	"cost": 6,
+ 	"attack": 4,
+ 	"health": 5,
+	"race":"Minion",
+ 	"text": "Cri de guerre : prend le contrôle d’un serviteur adverse avec 2 en Attaque ou moins.",
+ 	"playerClass": "Priest",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_091.png"
+ },
+{
+ 	
+ 	"name": "Prophete Velen",
+ 	"type": "Minion",
+ 	"rarity": "Legendary",
+ 	"cost": 7,
+ 	"attack": 7,
+ 	"health": 7,
+ 	"text": "Double les degâts et les soins de vos sorts et de votre pouvoir heroïque.",
+ 	"race":"Minion",
+ 	"playerClass": "Priest",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_350.png"
+ }
+
+
+
+
+
+]
+

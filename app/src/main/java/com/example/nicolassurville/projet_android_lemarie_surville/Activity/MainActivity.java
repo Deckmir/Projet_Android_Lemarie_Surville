@@ -1,8 +1,13 @@
 package com.example.nicolassurville.projet_android_lemarie_surville.Activity;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -91,6 +96,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return true;
     }
 
+    public void notificationcall () {
+        NotificationCompat.Builder notificationBuider = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
+                .setDefaults(NotificationCompat.DEFAULT_ALL)
+                .setSmallIcon(R.drawable.ic_file_download_black_24dp)
+                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.hs_logo))
+                .setBadgeIconType(R.drawable.ic_file_download_black_24dp)
+                .setContentTitle("Notification ")
+                .setContentText("Téléchagement terminé.");
+
+        NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.notify(1, notificationBuider.build());
+
+    }
+
     //gère le click sur une action de l'ActionBar
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -108,6 +127,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent = new Intent( Intent.ACTION_VIEW, Uri.parse( url ) );
                 startActivity(intent);
                 return true;
+            case R.id.action_home:
+                    notificationcall();
+                    return true;
         }
 
         return super.onOptionsItemSelected(item);

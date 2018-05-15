@@ -48,7 +48,7 @@
  	"cost": 2,
  	"attack": 2,
  	"health": 2,
- 	"text": "Chaque fois qu’une bête alliée meurt, gagne_+2/+1.",
+ 	"text": "Chaque fois qu’une bête alliee meurt, gagne_+2/+1.",
  	"race": "Beast",
  	"playerClass": "Hunter",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_531.png"
