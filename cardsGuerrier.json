@@ -1,17 +1,6 @@
 [
 
-{
- 	"name": "Sous-chef cruel",
- 	"type": "Minion",
- 	"rarity": "Common",
- 	"cost": 2,
- 	"attack": 2,
- 	"health": 2,
-	"race": "Minion",
- 	"text": "Cri de guerre : inflige 1 point de dégâts à un serviteur et lui donne +2 ATQ.",
- 	"playerClass": "Warrior",
- 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_603.png"
- },
+
 {
  	
  	"name": "Sous-chef cruel",
