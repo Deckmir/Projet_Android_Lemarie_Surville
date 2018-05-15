@@ -3,6 +3,7 @@ package com.example.nicolassurville.projet_android_lemarie_surville.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.net.Uri;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -173,12 +174,18 @@ public class PaladinActivity extends AppCompatActivity {
             case R.id.action_quit:
                 quit();
                 return true;
-            case R.id.action_search:
-                return true;
+
             case R.id.action_home:
                 Intent intent;
                 intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
+                return true;
+
+            case R.id.action_internet:
+                // 1. Appeler une URL web
+                String url = "https://playhearthstone.com/fr-fr/?utm_term=hearthstone&utm_source=google&utm_medium=cpc&utm_content=33938835611&utm_campaign=MEC_444951971&gclid=CjwKCAjwiurXBRAnEiwAk2GFZu1KDw1Lk1PNEo0a5gDv9oMQg-4rCBL5maAnOpSfd8taGi_fU48a1xoCG9QQAvD_BwE";
+                Intent intent1 = new Intent( Intent.ACTION_VIEW, Uri.parse( url ) );
+                startActivity(intent1);
                 return true;
         }
 

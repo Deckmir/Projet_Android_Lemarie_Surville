@@ -2,10 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
     <item
-        android:id="@+id/action_search"
-        android:icon="@android:drawable/ic_menu_search"
-        android:title="Search"
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_internet"
+        android:icon="@drawable/hs_logo"
+        android:title="Internet"
         app:showAsAction="always" />
 
 
@@ -15,11 +22,7 @@
         android:title="Settings"
         app:showAsAction="never" />
 
-    <item
-        android:id="@+id/action_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="Home"
-        app:showAsAction="always" />
+
 
 
     <item
