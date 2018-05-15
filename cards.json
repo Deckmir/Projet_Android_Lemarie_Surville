@@ -1,8 +1,20 @@
 [
-		
+{
+ 	
+ 	"name": "Assassin de Ravenholdt",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 7,
+ 	"attack": 7,
+ 	"health": 5,
+ 	"text": "Camouflage",
+ 	"playerClass": "Neutral",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_161.png",
+ 	
+ },
 	{
 
- 	"name": "Diable de poussière",
+ 	"name": "Diable de poussiere",
  	"type": "Minion",
  	"rarity": "Common",
  	"cost": 1,
@@ -16,13 +28,13 @@
  	},
 {
  	
- 	"name": "Élémentaire délié",
+ 	"name": "Elementaire delie",
  	"type": "Minion",
  	"rarity": "Common",
  	"cost": 3,
  	"attack": 2,
  	"health": 4,
- 	"text": "Chaque fois que vous jouez une carte avec <b>Surcharge</b>, gagne_+1/+1.",
+ 	"text": "Chaque fois que vous jouez une carte avec Surcharge, gagne_+1/+1.",
  	"race": "Elemental",
  	"playerClass": "Shaman",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_258.png"
@@ -42,7 +54,7 @@
  	
  }, {
  	
- 	"name": "Élémentaire de terre",
+ 	"name": "Elementaire de terre",
  	"type": "Minion",
  	"rarity": "Epic",
  	"cost": 5,
