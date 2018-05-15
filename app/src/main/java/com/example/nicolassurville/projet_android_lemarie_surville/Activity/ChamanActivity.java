@@ -133,7 +133,9 @@ public class ChamanActivity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 Toast.makeText(ChamanActivity.this,R.string.message_quit,Toast.LENGTH_LONG).show();
+
                 finish();
+
             }
         });
 

@@ -36,7 +36,7 @@ public class PretreActivity extends AppCompatActivity {
 
 
     private RecyclerView rv;
-    public static final String HEARTHSTONE_UPDATE = "https://raw.githubusercontent.com/Deckmir/Projet_Android_Lemarie_Surville/master/cardsPretrejson";
+    public static final String HEARTHSTONE_UPDATE = "https://raw.githubusercontent.com/Deckmir/Projet_Android_Lemarie_Surville/master/cardsPretre.json";
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<Cards> jeu;
