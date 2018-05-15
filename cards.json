@@ -1,18 +1,5 @@
 [
-		{
- 		
- 		"name": "Feu follet",
- 		"type": "Minion",
- 		"rarity": "Common",
- 		"cost": 0,
- 		"attack": 1,
- 		"health": 1,
-		"text": "  ",
- 		"playerClass": "Neutral",
- 		"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_231.png",
-		"race": "Serviteur"
- 		
- 	},
+		
 	{
 
  	"name": "Diable de poussière",
