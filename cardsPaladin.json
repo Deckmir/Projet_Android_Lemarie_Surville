@@ -6,7 +6,7 @@
  	"cost": 2,
  	"attack": 2,
  	"health": 2,
-	"rare":"Minion",
+	"race":"Minion",
  	"text": "Cri de guerre : confère Bouclier divin à un serviteur allié.",
  	"playerClass": "Paladin",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_362.png"
@@ -33,7 +33,7 @@
  	"health": 6,
  	"text": "Bouclier divin. Provocation. Râle d’agonie_: vous équipe de Porte-cendres 5/3.",
  	"playerClass": "Paladin",
-	"rare":"Minion",
+	"race":"Minion",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_383.png"
  }
 
