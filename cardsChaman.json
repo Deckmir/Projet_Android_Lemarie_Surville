@@ -1,0 +1,73 @@
+[
+
+	{
+
+ 	"name": "Diable de poussiere",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 1,
+ 	"attack": 3,
+ 	"health": 1,
+ 	"text": "Furie des vents\\n Surcharge : (2)",
+ 	"race": "Elemental",
+ 	"playerClass": "Shaman",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_243.png"
+ 	
+ 	},
+{
+ 	
+ 	"name": "Elementaire delie",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 3,
+ 	"attack": 2,
+ 	"health": 4,
+ 	"text": "Chaque fois que vous jouez une carte avec Surcharge, gagne_+1/+1.",
+ 	"race": "Elemental",
+ 	"playerClass": "Shaman",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_258.png"
+},
+{
+ 	
+ 	"name": "Totem de vague de mana",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 3,
+ 	"attack": 0,
+ 	"health": 3,
+ 	"text": "Vous piochez une carte à la fin de votre tour.",
+ 	"race": "Totem",
+ 	"playerClass": "Shaman",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_575.png"
+ 	
+ }, {
+ 	
+ 	"name": "Elementaire de terre",
+ 	"type": "Minion",
+ 	"rarity": "Epic",
+ 	"cost": 5,
+ 	"attack": 7,
+ 	"health": 8,
+ 	"text": "Provocation\\nSurcharge:(3)",
+ 	"race": "Elemental",
+ 	"playerClass": "Shaman",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_250.png"
+ 	
+ },
+{
+ 	
+ 	"name": "Al’Akir, seigneur des Vents",
+ 	"type": "Minion",
+ 	"rarity": "Legendary",
+ 	"cost": 8,
+ 	"attack": 3,
+ 	"health": 5,
+ 	"text": "Charge, Bouclier divin, Provocation, Furie des vents",
+ 	"race": "Elemental",
+ 	"playerClass": "Shaman",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_010.png"
+ 	
+ }
+
+
+]

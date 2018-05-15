@@ -1,0 +1,96 @@
+[
+
+{
+ 	
+ 	"name": "Panthère",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 2,
+ 	"attack": 3,
+ 	"health": 2,
+ 	"race": "Beast",
+	"text": "  ",
+ 	"playerClass": "Druid",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_160t.png"
+ 	
+ },
+
+{
+ 
+ 	"name": "Tréant",
+ 	"type": "Minion",
+ 	"rarity":"Common",
+ 	"cost": 2,
+ 	"attack": 2,
+ 	"health": 2,
+	"race": "Minion",
+	"text":"  ",
+ 	"playerClass": "Druid",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_tk9.png"
+ 	
+ },{
+ 
+ 	"name": "Gardien du bosquet",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 4,
+ 	"attack": 2,
+ 	"health": 2,
+	"race": "Minion",
+ 	"text": "Choix des armes: inflige 2_points de dégâts ou réduit au Silence un serviteur.",
+ 	"playerClass": "Druid",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_166.png"
+ 	
+ },{
+ 	
+ 	"name": "Druide de la Griffe",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 5,
+ 	"attack": 4,
+ 	"health": 4,
+	"race": "Minion",
+ 	"text": "Choix des armes: se transforme en_4/4 avec Charge ou en 4/6 avec Provocation.",
+ 	"playerClass": "Druid",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_165.png"
+ 	
+ },{
+ 	
+ 	"name": "Ancien de la guerre",
+ 	"type": "Minion",
+ 	"rarity": "Epic",
+ 	"cost": 7,
+ 	"attack": 5,
+ 	"health": 5,
+ 	"text": "Choix des armes :\\n+5 ATQ ou +5 PV et Provocation.",
+ 	"playerClass": "Druid",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_178.png"
+ 	
+ },{
+ 	"name": "Ancien du savoir",
+ 	"type": "Minion",
+ 	"rarity": "Epic",
+ 	"cost": 7,
+ 	"attack": 5,
+ 	"health": 5,
+ 	"text": "Choix des armes: rend 5 PV ou vous piochez une carte.",
+ 	"playerClass": "Druid",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_008.png"
+ 	
+ },{
+ 	"name": "Cénarius",
+ 	"type": "Minion",
+ 	"rarity": "Legendary",
+ 	"cost": 9,
+ 	"attack": 5,
+ 	"health": 8,
+	"race":"Minion",
+ 	"text": "Choix des armes: donne +2/+2 à vos autres serviteurs ou invoque deux tréants 2/2 avec Provocation.",
+ 	"playerClass": "Druid",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_573.png"
+ 	
+ }
+
+
+
+]
