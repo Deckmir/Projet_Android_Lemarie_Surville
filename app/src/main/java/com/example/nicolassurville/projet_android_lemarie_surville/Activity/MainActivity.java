@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.hs_logo))
                 .setBadgeIconType(R.drawable.ic_file_download_black_24dp)
                 .setContentTitle("Notification ")
-                .setContentText("Téléchagement terminé.");
+                .setContentText("Téléchargement terminé.");
 
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(1, notificationBuider.build());
