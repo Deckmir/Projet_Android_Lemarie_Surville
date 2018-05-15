@@ -1,6 +1,5 @@
-{
-	"web-app": {
-		"servlet": [{
+ [
+			{
 				"cardId": "EX1_612o",
 				"dbfId": "697",
 				"name": "Puissance du Kirin Tor",
@@ -6300,5 +6299,4 @@
 				"locale": "frFR"
 			}
 		]
-	}
-}
+	
