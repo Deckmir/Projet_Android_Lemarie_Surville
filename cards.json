@@ -781,51 +781,21 @@
 					"name": "Cri de guerre"
 				}]
 			},
-			{
-				"cardId": "EX1_243",
-				"dbfId": "618",
-				"name": "Diable de poussiere",
-				"cardSet": "Classic",
-				"type": "Minion",
-				"faction": "Neutral",
-				"rarity": "Common",
-				"text": "<b>Furie des vents</b>\\n<b>Surcharge :</b> (2)",
-				"flavor": "Comme un ouragan, la tempête en moi a balayé le passé...",
-				"artist": "Raymond Swanland",
-				"collectible": true,
-				"race": "Elemental",
-				"playerClass": "Shaman",
-				"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_243.png",
-				"imgGold": "http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/EX1_243_premium.gif",
-				"locale": "frFR",
-				"mechanics": [{
-						"name": "Surcharge "
-					},
-					{
-						"name": "Furie des vents"
-					}
-				]
+			
 			},
 			{
-				"cardId": "EX1_243",
-				"dbfId": "618",
+				
 				"name": "Diable de poussière",
-				"cardSet": "Classic",
 				"type": "Minion",
-				"faction": "Neutral",
 				"rarity": "Common",
 				"cost": 1,
 				"attack": 3,
 				"health": 1,
-				"text": "<b>Furie des vents</b>\\n<b>Surcharge :</b> (2)",
-				"flavor": "Comme un ouragan, la tempête en moi a balayé le passé...",
+				"text": "Furie des vents\\n Surcharge : (2)",
 				"artist": "Raymond Swanland",
-				"collectible": true,
 				"race": "Elemental",
 				"playerClass": "Shaman",
 				"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_243.png",
-				"imgGold": "http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/EX1_243_premium.gif",
-				"locale": "frFR",
 				"mechanics": [{
 						"name": "Surcharge "
 					},
