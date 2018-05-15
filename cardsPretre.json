@@ -2,7 +2,7 @@
 
 {
  	
- 	"name": "Puits de lumière",
+ 	"name": "Puits de lumiere",
  	"type": "Minion",
  	"rarity": "Rare",
  	"cost": 2,
@@ -16,7 +16,7 @@
 
 {
  
- 	"name": "Prêtresse auchenaï",
+ 	"name": "Pretresse auchenai",
  	"type": "Minion",
  	"rarity": "Rare",
  	"cost": 4,
@@ -29,7 +29,7 @@
  },
 {
  
- 	"name": "Rejeton de lumière",
+ 	"name": "Rejeton de lumiere",
  	"type": "Minion",
  	"rarity": "Common",
  	"cost": 4,
@@ -54,7 +54,7 @@
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_623.png"
  },{
  
- 	"name": "Prêtresse de la Cabale",
+ 	"name": "Pretresse de la Cabale",
  	"type": "Minion",
  	"rarity": "Epic",
  	"cost": 6,
@@ -67,7 +67,7 @@
  },
 {
  	
- 	"name": "Prophète Velen",
+ 	"name": "Prophete Velen",
  	"type": "Minion",
  	"rarity": "Legendary",
  	"cost": 7,
