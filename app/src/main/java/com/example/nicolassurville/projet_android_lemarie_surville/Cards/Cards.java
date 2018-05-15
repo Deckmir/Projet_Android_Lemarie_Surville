@@ -76,7 +76,7 @@ public class Cards {
 
     public void setRare(String rare ){this.rare=rare;}
 
-    public void setType(String cout) {
+    public void setType(String type) {
         this.type = type;
     }
 

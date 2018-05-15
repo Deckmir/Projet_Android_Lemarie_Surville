@@ -36,7 +36,7 @@ public class GuerrierActivity extends AppCompatActivity {
 
 
     private RecyclerView rv;
-    public static final String HEARTHSTONE_UPDATE = "https://raw.githubusercontent.com/Deckmir/Projet_Android_Lemarie_Surville/master/cards.json";
+    public static final String HEARTHSTONE_UPDATE = "https://raw.githubusercontent.com/Deckmir/Projet_Android_Lemarie_Surville/master/cardsGuerrier.json";
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<Cards> jeu;

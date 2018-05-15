@@ -21,7 +21,7 @@
  	"cost": 1,
  	"attack": 3,
  	"health": 1,
- 	"text": "Furie des vents\\n Surcharge : (2)",
+ 	"text": "Furie des vents Surcharge : (2)",
  	"race": "Elemental",
  	"playerClass": "Shaman",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_243.png"
@@ -48,7 +48,7 @@
  	"cost": 3,
  	"attack": 0,
  	"health": 3,
- 	"text": "Vous piochez une carte à la fin de votre tour.",
+ 	"text": "Vous piochez une carte ï¿½ la fin de votre tour.",
  	"race": "Totem",
  	"playerClass": "Shaman",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_575.png"
@@ -69,7 +69,7 @@
  },
 {
  	
- 	"name": "Al’Akir, seigneur des Vents",
+ 	"name": "Alï¿½Akir, seigneur des Vents",
  	"type": "Minion",
  	"rarity": "Legendary",
  	"cost": 8,

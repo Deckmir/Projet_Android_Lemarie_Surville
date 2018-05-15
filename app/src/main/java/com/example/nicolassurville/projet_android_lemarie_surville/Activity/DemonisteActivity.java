@@ -36,7 +36,7 @@ public class DemonisteActivity extends AppCompatActivity {
 
 
     private RecyclerView rv;
-    public static final String HEARTHSTONE_UPDATE = "https://raw.githubusercontent.com/Deckmir/Projet_Android_Lemarie_Surville/master/cards.json";
+    public static final String HEARTHSTONE_UPDATE = "https://raw.githubusercontent.com/Deckmir/Projet_Android_Lemarie_Surville/master/cardsDemoniste.json";
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<Cards> jeu;
@@ -78,7 +78,7 @@ public class DemonisteActivity extends AppCompatActivity {
                         Cards cards = new Cards();
 
 
-                        if(jsonObject.getString("playerClass").equals("WarLock")) {
+                        if(jsonObject.getString("playerClass").equals("Warlock")) {
                             cards.setName(jsonObject.getString("name"));
                             cards.setType(jsonObject.getString("type"));
                             cards.setRare(jsonObject.getString("rarity"));
