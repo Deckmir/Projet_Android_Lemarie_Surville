@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(DialogInterface dialog, int which) {
                 Toast.makeText(MainActivity.this, R.string.message_quit, Toast.LENGTH_LONG).show();
                 finish();
+                mySong.stop();
             }
         });
 
