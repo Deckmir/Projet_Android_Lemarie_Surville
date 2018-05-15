@@ -1,0 +1,118 @@
+[
+{
+ 	"name": "Diablotin de sang",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 1,
+ 	"attack": 0,
+ 	"health": 1,
+ 	"text": "Camouflage. À la fin de votre tour, donne +1 PV à un autre serviteur allié aléatoire.",
+ 	"race": "Demon",
+ 	"playerClass": "Warlock",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_059.png"
+ 	
+ },{
+ 
+ 	"name": "Diablotin des flammes",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 1,
+ 	"attack": 3,
+ 	"health": 2,
+ 	"text": "Cri de guerre: inflige 3 points de dégâts à votre héros.",
+ 	"race": "Demon",
+ 	"playerClass": "Warlock",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_319.png"
+ 	
+ },{
+
+ 	"name": "Diablotin sans valeur",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 1,
+ 	"attack": 1,
+ 	"health": 1,
+ 	"text": "Vous n’avez plus de démons! Heureusement, il y a toujours des diablotins...",
+ 	"race": "Demon",
+ 	"playerClass": "Warlock",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_317t.png"
+ 	
+ },{
+ 	
+ 	"name": "Gangregarde",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 3,
+ 	"attack": 3,
+ 	"health": 5,
+ 	"text": "Provocation. Cri de guerre: détruit un de vos cristaux de mana.",
+ 	"race": "Demon",
+ 	"playerClass": "Warlock",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_301.png"
+ 	
+ },{
+ 	"name": "Terreur du Vide",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 3,
+ 	"attack": 3,
+ 	"health": 3,
+ 	"text": "Cri de guerre: détruit les serviteurs adjacents et gagne leurs points d’Attaque et de Vie.",
+ 	"race": "Demon",
+ 	"playerClass": "Warlock",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_304.png"
+ },{
+ 	
+ 	"name": "Portail d’invocation",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 4,
+ 	"attack": 0,
+ 	"health": 4,
+ 	"text": "Vos serviteurs coûtent (2) cristaux de moins, mais jamais moins de (1).",
+	"race": "Minion",
+ 	"playerClass": "Warlock",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_315.png"
+ },{
+
+ 	"name": "Seigneur des abîmes",
+ 	"type": "Minion",
+ 	"rarity": "Epic",
+ 	"cost": 4,
+ 	"attack": 5,
+ 	"health": 6,
+ 	"text": "Cri de guerre: inflige 5 points de dégâts à votre héros.",
+ 	"race": "Demon",
+ 	"playerClass": "Warlock",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_313.png"
+ },
+
+{
+
+ 	"name": "Garde funeste",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 5,
+ 	"attack": 5,
+ 	"health": 7,
+ 	"text": "Charge. Cri de guerre : vous défausse de deux cartes aléatoires.",
+ 	"race": "Demon",
+ 	"playerClass": "Warlock",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_310.png"
+ },
+{
+ 	"name": "Seigneur Jaraxxus",
+ 	"type": "Minion",
+ 	"rarity": "Legendary",
+ 	"cost": 9,
+ 	"attack": 3,
+ 	"health": 15,
+ 	"text": "Cri de guerre : le seigneur Jaraxxus détruit votre héros et prend sa place.",
+ 	"race": "Demon",
+ 	"playerClass": "Warlock",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_323.png"
+ }
+
+
+
+]

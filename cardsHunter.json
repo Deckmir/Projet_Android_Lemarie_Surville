@@ -1,0 +1,85 @@
+[
+	{
+
+ 		"name": "Chien",
+		"rarity":"Minion",
+ 		"type": "Minion",
+ 		"cost": 1,
+ 		"attack": 1,
+ 		"health": 1,
+ 		"text": "Charge",
+ 		"race": "Beast",
+ 		"playerClass": "Hunter",
+ 		"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_538t.png"
+
+	},
+{
+ 	
+ 	"name": "Serpent",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 1,
+ 	"attack": 1,
+ 	"health": 1,
+	"text": " ",
+ 	"race": "Beast",
+ 	"playerClass": "Hunter",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_554t.png"
+ 	
+ },
+{
+ 
+ 	"name": "Hyène",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 2,
+ 	"attack": 2,
+ 	"health": 2,
+	"text": "  ",
+ 	"race": "Beast",
+ 	"playerClass": "Hunter",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_534t.png"
+ 	
+ },
+{
+ 	"name": "Hyène charognarde",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 2,
+ 	"attack": 2,
+ 	"health": 2,
+ 	"text": "Chaque fois qu’une bête alliée meurt, gagne_+2/+1.",
+ 	"race": "Beast",
+ 	"playerClass": "Hunter",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_531.png"
+ 	
+ },
+{
+
+ 	"name": "Grande crinière des savanes",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 6,
+ 	"attack": 6,
+ 	"health": 5,
+ 	"text": "Râle d’agonie : invoque deux hyènes 2/2.",
+ 	"race": "Beast",
+ 	"playerClass": "Hunter",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_534.png"
+},
+{
+ 
+ 	"name": "Roi Krush",
+ 	"type": "Minion",
+ 	"rarity": "Legendary",
+ 	"cost": 9,
+ 	"attack": 8,
+ 	"health": 8,
+ 	"text": "Charge",
+ 	"race": "Beast",
+ 	"playerClass": "Hunter",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_543.png"
+}
+]
+
+
