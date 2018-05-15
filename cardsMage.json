@@ -1,0 +1,93 @@
+[
+{
+ 		
+ 		"name": "Courbe-sort",
+ 		"cardSet": "Classic",
+ 		"type": "Minion",
+ 		"rarity": "Epic",
+ 		"cost": 1,
+ 		"attack": 1,
+ 		"health": 3,
+		"race":"Minion",
+ 		"playerClass": "Mage",
+ 		"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/tt_010a.png"
+ 	},
+{
+ 	
+ 	"name": "Wyrm de mana",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 1,
+ 	"attack": 1,
+ 	"health": 3,
+ 	"text": "Chaque fois que vous lancez un sort, gagne +1_ATQ.",
+ 	"race":"Minion",
+ 	"playerClass": "Mage",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_012.png"
+ },
+{
+ 	"name": "Apprentie du sorcier",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 2,
+ 	"attack": 3,
+ 	"health": 2,
+	"race":"Minion",
+ 	"text": "Vos sorts coûtent (1) cristal de moins.",
+ 	"playerClass": "Mage",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_608.png"
+ },
+{
+ 	
+ 	"name": "Mage du Kirin Tor",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 3,
+ 	"attack": 4,
+ 	"health": 3,
+ 	"text": "Cri de guerre: le prochain Secret que vous jouez pendant ce tour coûte 0.",
+ 	"playerClass": "Mage",
+	"race":"Minion",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_612.png"
+ },
+
+{
+ 	
+ 	"name": "Arcaniste éthérien",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 4,
+ 	"attack": 3,
+ 	"health": 3,
+	"rare":"Minion",
+ 	"text": "Si vous contrôlez un <b>Secret</b> à la fin de votre tour, gagne_+2/+2.",
+ 	"playerClass": "Mage",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_274.png"
+ },{
+ 	
+ 	"name": "Mage ancien",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 4,
+ 	"attack": 2,
+ 	"health": 5,
+	"rare":"Minion",
+ 	"text": "Cri de guerre: donne aux serviteurs adjacents +1_aux dégâts des sorts.",
+ 	"playerClass": "Neutral",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_584.png"
+ },
+{
+
+ 	"name": "Archimage Antonidas",
+ 	"type": "Minion",
+ 	"rarity": "Legendary",
+ 	"cost": 7,
+ 	"attack": 5,
+ 	"health": 7,
+	"rare":"Minion",
+ 	"text": "Chaque fois que vous lancez un sort, ajoute un sort «_boule de feu_» dans votre main.",
+ 	"playerClass": "Mage",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_559.png"
+ }
+
+]

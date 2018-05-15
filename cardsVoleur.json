@@ -1,0 +1,99 @@
+[
+
+{
+ 		
+ 		"name": "Bandit défias",
+ 		"type": "Minion",
+		"rarity":"Commune",
+ 		"cost": 1,
+ 		"attack": 2,
+ 		"health": 1,
+		"text": "   ",
+ 		"playerClass": "Rogue",
+		"race":"Minion",
+ 		"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_131t.png"
+ 	},
+
+{
+ 	
+ 	"name": "Assassin patient",
+ 	"type": "Minion",
+ 	"rarity": "Epic",
+ 	"cost": 2,
+ 	"attack": 1,
+ 	"health": 1,
+ 	"text": "Camouflage   Toxicité",
+ 	"playerClass": "Rogue",
+	"race":"Minion",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_522.png"
+ 	
+ },
+
+{
+ 	
+ 	"name": "Meneur défias",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 2,
+ 	"attack": 2,
+ 	"health": 2,
+	"race": "Minion",
+ 	"text": "Combo : invoque un bandit défias 2/1.",
+ 	"playerClass": "Rogue",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_131.png"
+
+ },{
+ 	
+ 	"name": "Agent du SI:7",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 3,
+ 	"attack": 3,
+ 	"health": 3,
+ 	"text": "Combo : inflige 2 points de degâts.",
+	"race": "Minion",
+ 	"playerClass": "Rogue",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_134.png"
+ },{
+ 	
+ 	"name": "Edwin VanCleef",
+ 	"type": "Minion",
+ 	"rarity": "Legendary",
+ 	"cost": 3,
+ 	"attack": 2,
+ 	"health": 2,
+	"rare":"Minion",
+ 	"text": "Combo: gagne +2/+2 pour chaque autre carte que vous avez jouée pendant ce tour.",
+ 	"playerClass": "Rogue",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_613.png"
+ },
+{
+ 
+ 	"name": "Maîtresse du déguisement",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 4,
+ 	"attack": 4,
+ 	"health": 4,
+	"race":"Minion",
+ 	"text": "Cri de guerre : confère Camouflage à un serviteur allié jusqu’à votre prochain tour.",
+ 	"playerClass": "Rogue",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_014.png"
+ },
+
+{
+ 	
+ 	"name": "Kidnappeur",
+ 	"type": "Minion",
+ 	"rarity": "Epic",
+ 	"cost": 6,
+ 	"attack": 5,
+ 	"health": 3,
+	"race":"Minion",
+ 	"text": "Combo: renvoie un serviteur dans la main de son proprietaire.",
+ 	"playerClass": "Rogue",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_005.png"
+ }
+
+
+]

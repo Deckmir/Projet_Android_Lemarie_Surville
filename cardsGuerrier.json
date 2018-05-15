@@ -1,0 +1,61 @@
+[
+
+
+{
+ 	
+ 	"name": "Sous-chef cruel",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 2,
+ 	"attack": 2,
+ 	"health": 2,
+	"race":"Minion",
+ 	"text": "Cri de guerre : inflige 1 point de dégâts à un serviteur et lui donne +2 ATQ.",
+ 	"playerClass": "Warrior",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_603.png"
+ },
+
+{
+ 	
+ 	"name": "Berserker écumant",
+ 	"type": "Minion",
+ 	"rarity": "Rare",
+ 	"cost": 3,
+ 	"attack": 2,
+ 	"health": 4,
+	"race": "Minion",
+ 	"text": "Chaque fois qu’un serviteur subit des dégâts, gagne +1 ATQ.",
+ 	"playerClass": "Warrior",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_604.png"
+ },
+{
+ 	"name": "Fabricante d’armes",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 4,
+ 	"attack": 3,
+ 	"health": 3,
+	"race": "Minion",
+ 	"text": "<b>Cri de guerre_:</b> vous équipe d’une arme_2/2.",
+ 	"playerClass": "Warrior",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_398.png"
+ },{
+ 	
+ 	"name": "Grommash Hurlenfer",
+ 	"type": "Minion",
+ 	"rarity": "Legendary",
+ 	"cost": 8,
+ 	"attack": 4,
+ 	"health": 9,
+	"race":"Minion",
+ 	"text": "Charge A + 6 ATQ s’il est blessé.",
+ 	"playerClass": "Warrior",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_414.png"
+ }
+
+
+
+
+
+
+]
