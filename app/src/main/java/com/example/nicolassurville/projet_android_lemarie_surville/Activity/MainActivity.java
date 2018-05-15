@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
@@ -20,6 +21,8 @@ import android.widget.Toast;
 
 import com.example.nicolassurville.projet_android_lemarie_surville.R;
 
+import java.io.IOException;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private CardView Chaman;
     private CardView Chasseur;
@@ -30,7 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private CardView Paladin;
     private CardView Pretre;
     private CardView Voleur;
-    MediaPlayer mySong;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,8 +60,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Pretre.setOnClickListener(this);
         Voleur.setOnClickListener(this);
 
-        mySong=MediaPlayer.create(MainActivity.this,R.raw.hearthstone );
-        mySong.start();
     }
 
     private void quit() {
