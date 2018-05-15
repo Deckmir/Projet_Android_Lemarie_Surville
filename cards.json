@@ -7,9 +7,10 @@
  	"cost": 7,
  	"attack": 7,
  	"health": 5,
+	"race":"Minion",
  	"text": "Camouflage",
  	"playerClass": "Neutral",
- 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_161.png",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_161.png"
  	
  },
 	{
