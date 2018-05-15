@@ -8,10 +8,24 @@
  		"attack": 1,
  		"health": 1,
 		"text": "  ",
- 		"playerClass": "Shaman",
+ 		"playerClass": "Neutral,
  		"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_231.png",
 		"race": "Serviteur"
  		
+ 	},
+	{
+
+ 	"name": "Diable de poussière",
+ 	"type": "Minion",
+ 	"rarity": "Common",
+ 	"cost": 1,
+ 	"attack": 3,
+ 	"health": 1,
+ 	"text": "Furie des vents\\n Surcharge : (2)",
+ 	"race": "Elemental",
+ 	"playerClass": "Shaman",
+ 	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_243.png",
+ 	
  	}
 
 
