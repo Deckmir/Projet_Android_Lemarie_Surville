@@ -7,7 +7,7 @@
  	"attack": 2,
  	"health": 2,
 	"race":"Minion",
- 	"text": "Cri de guerre : confère Bouclier divin à un serviteur allié.",
+ 	"text": "Cri de guerre : confÃ¨re Bouclier divin Ã  un serviteur alliÃ©.",
  	"playerClass": "Paladin",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_362.png"
  },
@@ -19,7 +19,7 @@
  	"cost": 3,
  	"attack": 3,
  	"health": 3,
- 	"text": "Cri de guerre_: l’Attaque d’un serviteur adverse passe à 1.",
+ 	"text": "Cri de guerre_: lâ€™Attaque dâ€™un serviteur adverse passe Ã  1.",
  	"race":"Minion",
  	"playerClass": "Paladin",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_382.png"
@@ -31,13 +31,25 @@
  	"cost": 8,
  	"attack": 6,
  	"health": 6,
- 	"text": "Bouclier divin. Provocation. Râle d’agonie_: vous équipe de Porte-cendres 5/3.",
+ 	"text": "Bouclier divin. Provocation. RÃ¢le dâ€™agonie_: vous Ã©quipe de Porte-cendres 5/3.",
  	"playerClass": "Paladin",
 	"race":"Minion",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_383.png"
- }
+ },
 
-
+{
+  
+      "name": "Epee de justice",
+      "type": "Weapon",
+      "rarity": "Epic",
+      "cost": 3,
+      "attack": 1,
+      "health": 5,
+	"race":"None",
+      "text": "AprÃ¨s avoir invoquÃ© un serviteur, lui donne +1/+1 et perd 1 DurabilitÃ©.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_366.png"
+    }
 
 
 ]
