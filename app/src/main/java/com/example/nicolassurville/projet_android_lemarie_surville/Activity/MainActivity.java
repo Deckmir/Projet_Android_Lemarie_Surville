@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private CardView Paladin;
     private CardView Pretre;
     private CardView Voleur;
-
+    MediaPlayer mySong;
 
 
     @Override
@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Paladin.setOnClickListener(this);
         Pretre.setOnClickListener(this);
         Voleur.setOnClickListener(this);
+        mySong=MediaPlayer.create(MainActivity.this,R.raw.hearthstone );
+        mySong.start();
 
     }
 
