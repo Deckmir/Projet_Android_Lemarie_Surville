@@ -61,6 +61,7 @@
       "attack": 2,
       "health": 2,
       "text": "    ",
+	"race":"None",
       "playerClass": "Warrior",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_398t.png"
     },
@@ -72,6 +73,7 @@
       "attack": 1,
       "health": 3,
       "text":  "   ",
+	"race":"None",
       "playerClass": "Warrior",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_409t.png"
     },
@@ -83,6 +85,7 @@
       "cost": 7,
       "attack": 7,
       "health": 1,
+	"race":"None",
       "text": "Attaquer un serviteur coûte 1 ATQ au lieu de 1 Durabilité.",
       "playerClass": "Warrior",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_411.png"
