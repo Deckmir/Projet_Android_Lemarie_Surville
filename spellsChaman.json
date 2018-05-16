@@ -82,31 +82,5 @@
       "text": "Inflige 2 à 3 points de dégâts à tous les serviteurs adverses. Surcharge: 2",
       "playerClass": "Shaman",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_259.png"
-    },
-
-
- {
-      
-      "name": "Marteau-du-Destin",
-      "type": "Weapon",
-      "rarity": "Epic",
-      "cost": 5,
-      "attack": 2,
-      "health": 8,
-      "text": "Furie des vents   Surcharge : 2",
-      "playerClass": "Shaman",
-      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_567.png"
-    },
-{
-    
-      "name": "Hache de Forge-foudre",
-      "type": "Weapon",
-      "rarity": "Common",
-      "cost": 2,
-      "attack": 2,
-      "health": 3,
-      "text": "Surcharge : 1",
-      "playerClass": "Shaman",
-      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_247.png"
     }
 ]

@@ -60,18 +60,7 @@
       "playerClass": "Rogue",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_137.png"
     },
-{
-    
-      "name": "Lame de la perdition",
-      "type": "Weapon",
-      "rarity": "Rare",
-      "cost": 3,
-      "attack": 2,
-      "health": 2,
-      "text": "Cri de guerre: inflige 1_point de dégâts. Combo: inflige 2 points de dégâts à la place.",
-      "playerClass": "Rogue",
-      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_133.png"
-    },
+
  {
      
       "name": "Deluge de lames",

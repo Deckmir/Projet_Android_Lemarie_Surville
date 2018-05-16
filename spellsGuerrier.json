@@ -21,29 +21,7 @@
       "playerClass": "Warrior",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_409.png"
     },
-{
-     
-      "name": "Hache d armes",
-      "type": "Weapon",
-      "rarity": "Common",
-      "cost": 1,
-      "attack": 2,
-      "health": 2,
-      "text": "    ",
-      "playerClass": "Warrior",
-      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_398t.png"
-    },
-{
-      "name": "Hache lourde",
-      "type": "Weapon",
-      "rarity": "Common", 
-      "cost": 1,
-      "attack": 1,
-      "health": 3,
-      "text":  "   ",
-      "playerClass": "Warrior",
-      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_409t.png"
-    },
+
  {
    
       "name": "Heurt de bouclier",
@@ -115,19 +93,8 @@
       "text": "Détruit tous les serviteurs sauf un <i>(choisi au hasard)</i>.",
       "playerClass": "Warrior",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_407.png"
-    },
-
-
-{
-     
-      "name": "Hurlesang",
-      "type": "Weapon",
-      "rarity": "Epic",
-      "cost": 7,
-      "attack": 7,
-      "health": 1,
-      "text": "Attaquer un serviteur coûte 1 ATQ au lieu de 1 Durabilité.",
-      "playerClass": "Warrior",
-      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_411.png"
     }
+
+
+
 ]

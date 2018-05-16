@@ -73,18 +73,6 @@
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_609.png"
     },
 {
-      
-      "name": "Arc cornedaigle",
-      "type": "Weapon",
-      "rarity": "Rare",
-      "cost": 3,
-      "attack": 3,
-      "health: 2,
-      "text": "Chaque fois qu’un <b>Secret</b> allié est révélé, gagne +1_Durabilité.",
-      "playerClass": "Hunter",
-      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_536.png"
-      
-    },{
      
       "name": "Lacher les chiens",
       "type": "Spell",
@@ -114,17 +102,6 @@
       "text": "Inflige 5 de dégâts à un serviteur et 2 de dégâts aux serviteurs adjacents.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_537.png"
-    },{
-      
-      "name": "Arc long du gladiateur",
-      "type": "Weapon",
-      "rarity": "Epic",
-      "cost": 7,
-      "attack": 5,
-      "health": 2,
-      "text": "Votre héros est Insensible quand il attaque.",
-      "playerClass": "Hunter",
-      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/DS1_188.png"
     }
 
 ]
