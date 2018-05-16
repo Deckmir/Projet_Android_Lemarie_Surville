@@ -94,11 +94,16 @@
       "playerClass": "Shaman",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_247.png"
     },
-	 {
+	 
+
+ {
       "name": "Eclair",
       "type": "Spell",
       "rarity": "Common",
       "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
       "text": "Inflige 3  de dégâts.  Surcharge : 1",
       "playerClass": "Shaman",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_238.png"
@@ -108,6 +113,9 @@
       "type": "Spell",
       "rarity": "Common",
       "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
       "text": "Inflige 2de dégâts à 2_serviteurs adverses aléatoires. Surcharge: 2",
       "playerClass": "Shaman",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_251.png"
@@ -119,6 +127,9 @@
       "type": "Spell",
       "rarity": "Common",
       "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
       "text": "Réduit un serviteur au Silence, puis lui inflige 1 de dégâts.",
       "playerClass": "Shaman",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_245.png"
@@ -130,6 +141,9 @@
       "type": "Spell",
       "rarity": "Rare",
       "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
       "text": "Confère à un serviteur « Râle d’agonie : réinvoque ce serviteur. »",
       "playerClass": "Shaman",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_038.png"
@@ -140,6 +154,9 @@
       "type": "Spell",
       "rarity": "Epic",
       "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
       "text": "Vous piochez une carte. Elle coûte 3 cristaux de moins.",
       "playerClass": "Shaman",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_053.png"
@@ -150,6 +167,9 @@
       "type": "Spell",
       "rarity": "Rare",
       "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
       "text": "Invoque deux esprits du loup 2/3 avec Provocation   Surcharge: 2",
       "playerClass": "Shaman",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_248.png"
@@ -162,6 +182,9 @@
       "type": "Spell",
       "rarity": "Rare",
       "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
       "text": "Inflige 5 de dégâts. Surcharge : 2",
       "playerClass": "Shaman",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_241.png"
@@ -173,10 +196,11 @@
       "type": "Spell",
       "rarity": "Rare",
       "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
       "text": "Inflige 2 à 3 points de dégâts à tous les serviteurs adverses. Surcharge: 2",
       "playerClass": "Shaman",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_259.png"
     }
-
-
 ]
