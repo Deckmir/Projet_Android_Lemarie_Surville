@@ -9,7 +9,7 @@
  	"attack": 0,
  	"health": 5,
 	"race": "Minion",
- 	"text": "Au d�but de votre tour, rend 3 PV � un personnage alli� bless�.",
+ 	"text": "Au début de votre tour, rend 3 PV à un personnage allié blessé.",
  	"playerClass": "Priest",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_341.png"
  },
@@ -22,7 +22,7 @@
  	"cost": 4,
  	"attack": 3,
  	"health": 5,
- 	"text": "Vos cartes et pouvoirs rendant de la Vie infligent d�sormais des d�g�ts � la place.",
+ 	"text": "Vos cartes et pouvoirs rendant de la Vie infligent désormais des dégâts à la place.",
 	"race": "Minion",
  	"playerClass": "Priest",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_591.png"
@@ -35,7 +35,7 @@
  	"cost": 4,
  	"attack": 0,
  	"health": 5,
- 	"text": "L�Attaque de ce serviteur est toujours �gale � sa Vie.",
+ 	"text": "L’Attaque de ce serviteur est toujours égale à sa Vie.",
  	"race": "Elemental",
  	"playerClass": "Priest",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_335.png"
@@ -48,7 +48,7 @@
  	"cost": 6,
  	"attack": 6,
  	"health": 6,
- 	"text": "Cri de guerre: donne +3_PV � un serviteur allie.",
+ 	"text": "Cri de guerre: donne +3_PV à un serviteur allie.",
 	"race":"Minion",
  	"playerClass": "Priest",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_623.png"
@@ -61,7 +61,7 @@
  	"attack": 4,
  	"health": 5,
 	"race":"Minion",
- 	"text": "Cri de guerre : prend le contr�le d�un serviteur adverse avec 2 en Attaque ou moins.",
+ 	"text": "Cri de guerre : prend le contrôle d’un serviteur adverse avec 2 en Attaque ou moins.",
  	"playerClass": "Priest",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_091.png"
  },
@@ -73,11 +73,116 @@
  	"cost": 7,
  	"attack": 7,
  	"health": 7,
- 	"text": "Double les deg�ts et les soins de vos sorts et de votre pouvoir hero�que.",
+ 	"text": "Double les degâts et les soins de vos sorts et de votre pouvoir heroïque.",
  	"race":"Minion",
  	"playerClass": "Priest",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_350.png"
- }
+ },
+{
+     
+      "name": "Silence",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 0,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Réduit au Silence un serviteur.",
+      "playerClass": "Priest",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_332.png"
+    },
+
+{
+      "name": "Feu interieur",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Change l’Attaque d’un serviteur pour qu’elle soit égale à ses PV.",
+      "playerClass": "Priest",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS1_129.png"
+    },
+{
+     
+      "name": "Forme d’Ombre",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Transforme votre pouvoir héroïque, qui inflige 2 points de dégâts. Si la forme d’Ombre est déjà adoptée: 3 points de dégâts.",
+      "playerClass": "Priest",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_625.png"
+    },
+{
+    
+      "name": "Vol d’esprit",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Copie 2 cartes du deck de votre adversaire et les place dans votre main.",
+      "playerClass": "Priest",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_339.png"
+    },
+{
+    
+      "name": "Dissipation de masse",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 4,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Réduit au Silence tous les serviteurs adverses. Vous piochez une carte.",
+      "playerClass": "Priest",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_626.png"
+    },
+
+{
+     
+      "name": "Folie de l’ombre",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 4,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Prend le contrôle d’un serviteur adverse avec 3 ATQ ou moins jusqu’à la fin du tour.",
+      "playerClass": "Priest",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_334.png"
+    },
+
+{
+      "name": "Jeux d esprit",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 4,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Place une copie d’un serviteur aléatoire du deck de votre adversaire sur le champ de bataille.",
+      "playerClass": "Priest",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_345.png"
+    },
+ {
+   
+      "name": "Flammes sacrees",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 6,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 5 points de dégâts. Rend 5 PV à votre héros.",
+      "playerClass": "Priest",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_624.png"
+    }
 
 
 
