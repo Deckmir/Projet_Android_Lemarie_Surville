@@ -5,7 +5,7 @@
       "type": "Spell",
       "rarity": "Epic",
       "cost": 1,
-      "text": "Donne 2 ATQ et l�effet Insensible � une B�te alli�e pendant ce tour.",
+      "text": "Donne 2 ATQ et l’effet Insensible à une Bête alliée pendant ce tour.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_549.png"
 
@@ -17,7 +17,7 @@
       "type": "Spell",
       "rarity": "Rare",
       "cost": 2,
-      "text": "Secret: quand un adversaire attaque votre h�ros, il attaque un autre personnage al�atoire � la place.",
+      "text": "Secret: quand un adversaire attaque votre héros, il attaque un autre personnage aléatoire à la place.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_533.png"
     },
@@ -27,7 +27,7 @@
       "type": "Spell",
       "rarity": "Rare",
       "cost": 2,
-      "text": "Tous les serviteurs perdent le <b>Camouflage</b>. D�truit tous les <b>Secrets</b> adverses. Vous piochez une carte.",
+      "text": "Tous les serviteurs perdent le <b>Camouflage</b>. Détruit tous les <b>Secrets</b> adverses. Vous piochez une carte.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_544.png"
     },
@@ -38,7 +38,7 @@
       "type": "Spell",
       "rarity": "Epic",
       "cost": 2,
-      "text": "Secret : quand un de vos serviteurs est attaqu�, invoque trois serpents 1/1.",
+      "text": "Secret : quand un de vos serviteurs est attaqué, invoque trois serpents 1/1.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_554.png"
     },
@@ -48,7 +48,7 @@
       "type": "Spell",
       "rarity": "Common",
       "cost": 2,
-      "text": "Secret : quand votre h�ros est attaqu�, inflige 2  de d�g�ts � tous les adversaires.",
+      "text": "Secret : quand votre héros est attaqué, inflige 2  de dégâts à tous les adversaires.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_610.png"
     },
@@ -58,7 +58,7 @@
       "type": "Spell",
       "rarity": "Common",
       "cost": 2,
-      "text": "Secret: quand un serviteur adverse attaque, le renvoie dans la main de son propri�taire et il co�te d�sormais 2 cristaux de plus.",
+      "text": "Secret: quand un serviteur adverse attaque, le renvoie dans la main de son propriétaire et il coûte désormais 2 cristaux de plus.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_611.png"
     },
@@ -68,7 +68,7 @@
       "type": "Spell",
       "rarity": "Common",
       "cost": 2,
-      "text": "Secret : une fois que votre adversaire a jou� un serviteur, ce dernier subit 4  de d�g�ts.",
+      "text": "Secret : une fois que votre adversaire a joué un serviteur, ce dernier subit 4  de dégâts.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_609.png"
     },
@@ -89,7 +89,7 @@
       "type": "Spell",
       "rarity": "Common",
       "cost": 3,
-      "text": "D�truit un serviteur adverse al�atoire.",
+      "text": "Détruit un serviteur adverse aléatoire.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_617.png"
     },
@@ -99,9 +99,143 @@
       "type": "Spell",
       "rarity": "Rare",
       "cost": 5,
-      "text": "Inflige 5 de d�g�ts � un serviteur et 2 de d�g�ts aux serviteurs adjacents.",
+      "text": "Inflige 5 de dégâts à un serviteur et 2 de dégâts aux serviteurs adjacents.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_537.png"
+    },{
+     
+      "name": "Courroux bestial",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Donne 2 ATQ et l’effet Insensible à une Bête alliée pendant ce tour.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_549.png"
+
+    },
+
+{
+     
+      "name": "Detournement",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret: quand un adversaire attaque votre héros, il attaque un autre personnage aléatoire à la place.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_533.png"
+    },
+ {
+    
+      "name": "Fusee eclairante",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Tous les serviteurs perdent le <b>Camouflage</b>. Détruit tous les <b>Secrets</b> adverses. Vous piochez une carte.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_544.png"
+    },
+
+{
+     
+      "name": "Piege a serpents",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret : quand un de vos serviteurs est attaqué, invoque trois serpents 1/1.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_554.png"
+    },
+{
+      
+      "name": "Piege explosif",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret : quand votre héros est attaqué, inflige 2  de dégâts à tous les adversaires.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_610.png"
+    },
+{
+      
+      "name": "Piege givrant",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret: quand un serviteur adverse attaque, le renvoie dans la main de son propriétaire et il coûte désormais 2 cristaux de plus.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_611.png"
+    },
+
+{
+      "name": "Tir de precision",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret : une fois que votre adversaire a joué un serviteur, ce dernier subit 4  de dégâts.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_609.png"
+    },
+{
+     
+      "name": "Lacher les chiens",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Invoque un chien 1/1 avec Charge pour chaque serviteur adverse.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_538.png"
+    }, 
+
+{
+     
+      "name": "Tir meurtrier",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Détruit un serviteur adverse aléatoire.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_617.png"
+    },
+{
+     
+      "name": "Tir explosif",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 5,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 5 de dégâts à un serviteur et 2 de dégâts aux serviteurs adjacents.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_537.png"
     }
+
 
 ]
