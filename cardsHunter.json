@@ -86,7 +86,7 @@
       "rarity": "Rare",
       "cost": 3,
       "attack": 3,
-      "health: 2,
+      "health": 2,
       "race":"None",
       "text": "Chaque fois qu’un <b>Secret</b> allié est révélé, gagne +1_Durabilité.",
       "playerClass": "Hunter",
