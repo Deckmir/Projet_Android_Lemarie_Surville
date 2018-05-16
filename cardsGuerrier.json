@@ -10,7 +10,7 @@
  	"attack": 2,
  	"health": 2,
 	"race":"Minion",
- 	"text": "Cri de guerre : inflige 1 point de dégâts à un serviteur et lui donne +2 ATQ.",
+ 	"text": "Cri de guerre : inflige 1 point de dÃ©gÃ¢ts Ã  un serviteur et lui donne +2 ATQ.",
  	"playerClass": "Warrior",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_603.png"
  },
@@ -24,19 +24,19 @@
  	"attack": 2,
  	"health": 4,
 	"race": "Minion",
- 	"text": "Chaque fois qu’un serviteur subit des dégâts, gagne +1 ATQ.",
+ 	"text": "Chaque fois quâ€™un serviteur subit des dÃ©gÃ¢ts, gagne +1 ATQ.",
  	"playerClass": "Warrior",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_604.png"
  },
 {
- 	"name": "Fabricante d’armes",
+ 	"name": "Fabricante dâ€™armes",
  	"type": "Minion",
  	"rarity": "Common",
  	"cost": 4,
  	"attack": 3,
  	"health": 3,
 	"race": "Minion",
- 	"text": "<b>Cri de guerre_:</b> vous équipe d’une arme_2/2.",
+ 	"text": "<b>Cri de guerre_:</b> vous Ã©quipe dâ€™une arme_2/2.",
  	"playerClass": "Warrior",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_398.png"
  },{
@@ -48,12 +48,45 @@
  	"attack": 4,
  	"health": 9,
 	"race":"Minion",
- 	"text": "Charge A + 6 ATQ s’il est blessé.",
+ 	"text": "Charge A + 6 ATQ sâ€™il est blessÃ©.",
  	"playerClass": "Warrior",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_414.png"
- }
-
-
+ },
+{
+     
+      "name": "Hache d armes",
+      "type": "Weapon",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": 2,
+      "health": 2,
+      "text": "    ",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_398t.png"
+    },
+{
+      "name": "Hache lourde",
+      "type": "Weapon",
+      "rarity": "Common", 
+      "cost": 1,
+      "attack": 1,
+      "health": 3,
+      "text":  "   ",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_409t.png"
+    },
+{
+     
+      "name": "Hurlesang",
+      "type": "Weapon",
+      "rarity": "Epic",
+      "cost": 7,
+      "attack": 7,
+      "health": 1,
+      "text": "Attaquer un serviteur coÃ»te 1 ATQ au lieu de 1 DurabilitÃ©.",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_411.png"
+    }
 
 
 
