@@ -1,0 +1,85 @@
+[
+
+{
+     
+      "name": "Barriere de glace",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "text": "Secret: quand votre héros est attaqué, il gagne 8 points d’armure.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_289.png"
+    },
+{
+     
+      "name": "Contresort",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 3,
+      "text": "Secret : quand votre adversaire lance un sort, le contre.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_287.png"
+    },
+{
+     
+      "name": "Courbe-sort",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 3,
+      "text": "Secret: quand votre adversaire lance un sort sur un serviteur, invoque un 1/3 qui devient la nouvelle cible.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/tt_010.png"
+    },
+{
+     
+      "name": "Entité miroir",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "text": "Secret : une fois que votre adversaire a joué un serviteur, en invoque une copie.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_294.png"
+    },
+
+ {
+     
+      "name": "Vaporisation",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 3,
+      "text": "Secret : quand un serviteur attaque votre héros, le détruit.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_594.png"
+    },
+ {
+    
+      "name": "Cone de froid",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 4,
+      "text": "Gèle et inflige 1  de dégâts à un serviteur et ceux à côté de lui.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_275.png"
+    },
+ {
+     
+      "name": "Blizzard",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 6,
+      "text": "Inflige 2 de dégâts à tous les serviteurs adverses et les gèle.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_028.png"
+      
+    },
+  {
+     
+      "name": "Explosion pyrotechnique",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 10,
+      "text": "Inflige 10 de dégâts.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_279.png"
+    }
+]

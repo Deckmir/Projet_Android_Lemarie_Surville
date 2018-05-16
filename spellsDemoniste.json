@@ -1,0 +1,64 @@
+[
+{
+   
+      "name": "Feu demoniaque",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "text": "Inflige 2  de dégâts à un serviteur. Si la cible est un de vos démons, lui donne +2/+2 à la place.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_596.png"
+    },
+{
+     
+      "name": "Detection des demons",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "text": "Vous piochez 2 démons de votre deck.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_317.png"
+    },
+
+{
+      "name": "Ombreflamme",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 4,
+      "text": "Détruit un serviteur allié et inflige des dégâts équivalents à ses points d’attaque à tous les serviteurs adverses.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_303.png"
+      
+    },
+{
+      
+      "name": "Plaie funeste",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 5,
+      "text": "Inflige 2 de dégâts à un personnage. S’il est tué, invoque un démon aléatoire.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_320.png"
+    },
+{
+      
+      "name": "Siphonner l’ame",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 6,
+      "text": "Détruit un serviteur. Rend 3 PV à votre héros.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_309.png"
+    },
+{
+   
+      "name": "Neant distordu",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 8,
+      "text": "Détruit tous les serviteurs.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_312.png"
+    }
+
+]

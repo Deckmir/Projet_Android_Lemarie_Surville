@@ -1,0 +1,140 @@
+[
+
+{
+
+      "name": "Benediction de sagesse",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "text": "Choisissez un serviteur. Chaque fois qu’il attaque, vous piochez une carte.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_363.png"
+    },
+
+
+{
+    
+      "name": "Noble sacrifice",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "text": "Secret : invoque un défenseur 2/1 qui devient la cible de l’adversaire sur le point d’attaquer.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_130.png"
+    },
+
+
+ {
+    
+      "name": "Œil pour œil",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "text": "Secret_: inflige au héros adverse autant de dégâts que ceux subis par votre héros.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_132.png"
+    },
+
+
+{
+    
+      "name": "Redemption",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "text": "Secret_: quand un serviteur allié meurt, il est ressuscité avec 1 PV.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_136.png"
+    },
+
+{
+      
+      "name": "Repentir",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "text": "Secret : une fois que votre adversaire a joué un serviteur, ses points de vie sont réduits à 1.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_379.png"
+    },
+
+ {
+      
+      "name": "Egalite",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 2,
+      "text": "Les points de vie de TOUS les serviteurs passent à 1.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_619.png"
+    },
+
+{
+  
+      "name": "Epee de justice",
+      "type": "Weapon",
+      "rarity": "Epic",
+      "cost": 3,
+      "attack": 1,
+      "health": 5,
+      "text": "Après avoir invoqué un serviteur, lui donne +1/+1 et perd 1 Durabilité.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_366.png"
+    },
+
+ {
+
+      "name": "Faveur divine",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 3,
+      "text": "Vous piochez des cartes jusqu’à en avoir autant en main que votre adversaire.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_349.png"
+    },
+
+{
+   
+      "name": "Benediction du champion",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 5,
+      "text": "Double l’Attaque d’un serviteur.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_355.png"
+    },
+
+
+{
+    
+      "name": "Colere divine",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 5,
+      "text": "Vous piochez une carte et infligez des dégâts d’un montant égal à son coût.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_365.png"
+    },
+
+ {
+  
+      "name": "Courroux vengeur",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 6,
+      "text": "Inflige 8  de dégâts répartis de façon aléatoire entre tous les adversaires.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_384.png"
+    },
+
+ {
+
+      "name": "Imposition des mains",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 8,
+      "text": "Rend 8 de vie. Vous piochez 3_cartes.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_354.png"
+    }
+]

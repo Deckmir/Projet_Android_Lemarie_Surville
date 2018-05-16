@@ -1,0 +1,85 @@
+[
+
+ {
+     
+      "name": "Pas de l ombre",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 0, 
+      "text": "Renvoie un serviteur allié dans votre main. Il coûte 2 cristaux de moins.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_144.png"
+    },
+{
+     
+      "name": "Preparation",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 0,
+      "text": "Le prochain sort que vous lancez pendant ce tour coûte (3) cristaux de moins.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_145.png"
+    },
+ {
+     
+      "name": "Sang froid",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "text": "Donne +2 ATQ à un serviteur. Combo: +4 ATQ à la place.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_073.png"
+    },
+{
+     
+      "name": "Éviscération",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "text": "Inflige 2 de dégâts. Combo_: inflige 4 de dégâts à la place.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_124.png"
+    },
+ {
+     
+      "name": "Trahison",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "text": "Force un serviteur adverse à infliger ses dégâts aux serviteurs à côté de lui.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_126.png"
+    },
+{
+     
+      "name": "Casse-tete",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 3,
+      "text": "Inflige 2 de dégâts au héros adverse. Combo : renvoie cette carte dans votre main au tour suivant.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_137.png"
+    },
+{
+    
+      "name": "Lame de la perdition",
+      "type": "Weapon",
+      "rarity": "Rare",
+      "cost": 3,
+      "attack": 2,
+      "health": 2,
+      "text": "Cri de guerre: inflige 1_point de dégâts. Combo: inflige 2 points de dégâts à la place.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_133.png"
+    },
+ {
+     
+      "name": "Deluge de lames",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 4,
+      "text": "Détruit votre arme, dont les dégâts sont infligés à tous les serviteurs adverses.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_233.png"
+    }
+]

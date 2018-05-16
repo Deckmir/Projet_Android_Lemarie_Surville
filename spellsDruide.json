@@ -1,0 +1,105 @@
+[
+
+{
+      
+      "name": "Acclimatation",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "text": "Détruit un serviteur. Votre adversaire pioche 2 cartes.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_161.png"
+    },
+
+{
+     
+      "name": "Sauvagerie",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 1,
+      "text": "Inflige des dégâts d’un montant équivalent à l’Attaque de votre héros à un serviteur.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_578.png"
+    },
+{
+     
+      "name": "Colere",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "text": "Choix des armes : inflige 3  de dégâts à un serviteur ; ou inflige 1 | de dégâts à un serviteur et vous piochez une carte.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_154.png"
+    },
+ {
+      
+      "name": "Puissance du fauve",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "text": "Choix des armes:donne +1/+1 à vos serviteurs ou invoque une panthère 3/2.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_160.png"
+    },
+{
+      
+      "name": "Marque de la nature",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "text": "Choix des armes : donne +4 ATQ à un serviteur ou +4 PV et Provocation.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_155.png"
+    },
+{
+      
+      "name": "Ame de la foret",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 4,
+      "text": "Confère à vos serviteurs « Râle d’agonie : invoque un tréant 2/2. »",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_158.png"
+    },
+{
+      
+      "name": "Morsure",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 4,
+      "text": "Donne +4 ATQ à votre héros pendant ce tour. Gagne 4 points d’armure.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_570.png"
+    },
+{
+     
+      "name": "Force de la nature",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 5,
+      "text": "Invoque trois tréants 2/2.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_571.png"
+    },
+{
+    
+      "name": "Meteores",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 5,
+      "text": "Choix des armes : inflige 5  de dégâts à un serviteur ; ou 2  de dégâts à tous les serviteurs adverses.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_007.png"
+    },
+{
+     
+      "name": "Nourrir",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 5,
+      "text": "Choix des armes: vous gagnez 2 cristaux de mana ou vous piochez 3 cartes.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_164.png"
+    }
+
+]
