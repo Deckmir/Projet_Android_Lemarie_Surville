@@ -35,7 +35,7 @@
  	"cost": 3,
  	"attack": 0,
  	"health": 3,
- 	"text": "Vous piochez une carte à la fin de votre tour.",
+ 	"text": "Vous piochez une carte Ã  la fin de votre tour.",
  	"race": "Totem",
  	"playerClass": "Shaman",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_575.png"
@@ -67,7 +67,31 @@
  	"playerClass": "Shaman",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_010.png"
  	
- }
+ },
+	{
+      
+      "name": "Marteau-du-Destin",
+      "type": "Weapon",
+      "rarity": "Epic",
+      "cost": 5,
+      "attack": 2,
+      "health": 8,
+      "text": "Furie des vents   Surcharge : 2",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_567.png"
+    },
+{
+    
+      "name": "Hache de Forge-foudre",
+      "type": "Weapon",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": 2,
+      "health": 3,
+      "text": "Surcharge : 1",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_247.png"
+    }
 
 
 ]
