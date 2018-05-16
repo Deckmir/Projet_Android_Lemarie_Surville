@@ -29,7 +29,7 @@
  },
 {
  
- 	"name": "HyËne",
+ 	"name": "Hy√®ne",
  	"type": "Minion",
  	"rarity": "Rare",
  	"cost": 2,
@@ -42,13 +42,13 @@
  	
  },
 {
- 	"name": "HyËne charognarde",
+ 	"name": "Hy√®ne charognarde",
  	"type": "Minion",
  	"rarity": "Common",
  	"cost": 2,
  	"attack": 2,
  	"health": 2,
- 	"text": "Chaque fois quíune bÍte alliee meurt, gagne_+2/+1.",
+ 	"text": "Chaque fois qu‚Äôune b√™te alliee meurt, gagne_+2/+1.",
  	"race": "Beast",
  	"playerClass": "Hunter",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_531.png"
@@ -56,13 +56,13 @@
  },
 {
 
- 	"name": "Grande criniËre des savanes",
+ 	"name": "Grande crini√®re des savanes",
  	"type": "Minion",
  	"rarity": "Rare",
  	"cost": 6,
  	"attack": 6,
  	"health": 5,
- 	"text": "R‚le díagonie : invoque deux hyËnes 2/2.",
+ 	"text": "R√¢le d‚Äôagonie : invoque deux hy√®nes 2/2.",
  	"race": "Beast",
  	"playerClass": "Hunter",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_534.png"
@@ -79,7 +79,32 @@
  	"race": "Beast",
  	"playerClass": "Hunter",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_543.png"
-}
+},{
+      
+      "name": "Arc cornedaigle",
+      "type": "Weapon",
+      "rarity": "Rare",
+      "cost": 3,
+      "attack": 3,
+      "health: 2,
+      "race":"None",
+      "text": "Chaque fois qu‚Äôun <b>Secret</b> alli√© est r√©v√©l√©, gagne +1_Durabilit√©.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_536.png"
+      
+    },{
+      
+      "name": "Arc long du gladiateur",
+      "type": "Weapon",
+      "rarity": "Epic",
+      "cost": 7,
+      "attack": 5,
+      "health": 2,
+	"race":"None",
+      "text": "Votre h√©ros est Insensible quand il attaque.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/DS1_188.png"
+    }
 ]
 
 
