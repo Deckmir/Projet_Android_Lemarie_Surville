@@ -34,11 +34,11 @@ import java.util.List;
 
 import static com.example.nicolassurville.projet_android_lemarie_surville.Activity.SelectionChamanActivity.choix;
 
-public class MageActivity extends AppCompatActivity {
+public class LegendaireActivity extends AppCompatActivity {
 
 
     private RecyclerView rv;
-    public static final String HEARTHSTONE_UPDATE = "https://raw.githubusercontent.com/Deckmir/Projet_Android_Lemarie_Surville/master/cardsMage.json";
+    public static final String HEARTHSTONE_UPDATE = "https://raw.githubusercontent.com/Deckmir/Projet_Android_Lemarie_Surville/master/Légendaires.json";
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<Cards> jeu;
@@ -47,7 +47,7 @@ public class MageActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mage);
+        setContentView(R.layout.activity_legendaire);
 
 
         jeu = new ArrayList<>();
@@ -55,7 +55,7 @@ public class MageActivity extends AppCompatActivity {
 
 
 
-        rv = (RecyclerView) findViewById(R.id.rv_mage);
+        rv = (RecyclerView) findViewById(R.id.rv_legendaire);
         lancement_JSON();
     }
     private void lancement_JSON(){
@@ -72,8 +72,7 @@ public class MageActivity extends AppCompatActivity {
                         Cards cards = new Cards();
 
 
-                        if(choix.equals("serviteur")){
-                            if(jsonObject.getString("type").equals("Minion" ) || jsonObject.getString("type").equals("Weapon" ) ) {
+
                                 cards.setName(jsonObject.getString("name"));
                                 cards.setType(jsonObject.getString("type"));
                                 cards.setRare(jsonObject.getString("rarity"));
@@ -85,20 +84,7 @@ public class MageActivity extends AppCompatActivity {
                                 cards.setImage_url(jsonObject.getString("img"));
                                 cards.setRace(jsonObject.getString("race"));
                                 jeu.add(cards);
-                            }
-                        }
-                        if(choix.equals("sort")){
-                            if(jsonObject.getString("type").equals("Spell" )  ) {
-                                cards.setName(jsonObject.getString("name"));
-                                cards.setType(jsonObject.getString("type"));
-                                cards.setRare(jsonObject.getString("rarity"));
-                                cards.setCout(jsonObject.getString("cost"));
-                                cards.setDescription(jsonObject.getString("text"));
-                                cards.setclasse(jsonObject.getString("playerClass"));
-                                cards.setImage_url(jsonObject.getString("img"));
-                                jeu.add(cards);
-                            }
-                        } } catch (JSONException e) {
+                          } catch (JSONException e) {
                         e.printStackTrace();
                     }
                 }
@@ -114,7 +100,7 @@ public class MageActivity extends AppCompatActivity {
             }
         });
 
-        requestQueue = Volley.newRequestQueue(MageActivity.this);
+        requestQueue = Volley.newRequestQueue(LegendaireActivity.this);
         requestQueue.add(request);
 
     }
@@ -139,7 +125,7 @@ public class MageActivity extends AppCompatActivity {
         alertDialogBuilder.setNegativeButton(R.string.message_yes,new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(MageActivity.this,R.string.message_quit,Toast.LENGTH_LONG).show();
+                Toast.makeText(LegendaireActivity.this,R.string.message_quit,Toast.LENGTH_LONG).show();
                 finish();
             }
         });

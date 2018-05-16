@@ -33,7 +33,9 @@
         <activity android:name=".Activity.DruideActivity" />
         <activity android:name=".Activity.GuerrierActivity" />
         <activity android:name=".Activity.PaladinActivity" />
-        <activity android:name=".Activity.VoleurActivity"></activity>
+        <activity android:name=".Activity.VoleurActivity" />
+        <activity android:name=".Activity.SelectionChamanActivity" />
+        <activity android:name=".Activity.LegendaireActivity"></activity>
     </application>
 
 </manifest>

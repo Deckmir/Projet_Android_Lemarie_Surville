@@ -32,6 +32,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.example.nicolassurville.projet_android_lemarie_surville.Activity.SelectionChamanActivity.choix;
+
 public class PaladinActivity extends AppCompatActivity {
 
 
@@ -51,15 +53,6 @@ public class PaladinActivity extends AppCompatActivity {
         jeu = new ArrayList<>();
 
 
-        Button btn = (Button) findViewById(R.id.ButtonSecondView);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                IntentFilter intentFilter = new IntentFilter(HEARTHSTONE_UPDATE);
-                Card_Services.startActionCards(PaladinActivity.this);
-
-            }
-        });
 
         rv = (RecyclerView) findViewById(R.id.rv_paladin);
         lancement_JSON();
@@ -78,20 +71,33 @@ public class PaladinActivity extends AppCompatActivity {
                         Cards cards = new Cards();
 
 
-                        if(jsonObject.getString("playerClass").equals("Paladin")) {
-                            cards.setName(jsonObject.getString("name"));
-                            cards.setType(jsonObject.getString("type"));
-                            cards.setRare(jsonObject.getString("rarity"));
-                            cards.setCout(jsonObject.getString("cost"));
-                            cards.setAttaque(jsonObject.getString("attack"));
-                            cards.setPoint_de_vie(jsonObject.getString("health"));
-                            cards.setDescription(jsonObject.getString("text"));
-                            cards.setclasse(jsonObject.getString("playerClass"));
-                            cards.setImage_url(jsonObject.getString("img"));
-                            cards.setRace(jsonObject.getString("race"));
-                            jeu.add(cards);
+                        if(choix.equals("serviteur")){
+                            if(jsonObject.getString("type").equals("Minion" ) || jsonObject.getString("type").equals("Weapon" ) ) {
+                                cards.setName(jsonObject.getString("name"));
+                                cards.setType(jsonObject.getString("type"));
+                                cards.setRare(jsonObject.getString("rarity"));
+                                cards.setCout(jsonObject.getString("cost"));
+                                cards.setAttaque(jsonObject.getString("attack"));
+                                cards.setPoint_de_vie(jsonObject.getString("health"));
+                                cards.setDescription(jsonObject.getString("text"));
+                                cards.setclasse(jsonObject.getString("playerClass"));
+                                cards.setImage_url(jsonObject.getString("img"));
+                                cards.setRace(jsonObject.getString("race"));
+                                jeu.add(cards);
+                            }
                         }
-                    } catch (JSONException e) {
+                        if(choix.equals("sort")){
+                            if(jsonObject.getString("type").equals("Spell" )  ) {
+                                cards.setName(jsonObject.getString("name"));
+                                cards.setType(jsonObject.getString("type"));
+                                cards.setRare(jsonObject.getString("rarity"));
+                                cards.setCout(jsonObject.getString("cost"));
+                                cards.setDescription(jsonObject.getString("text"));
+                                cards.setclasse(jsonObject.getString("playerClass"));
+                                cards.setImage_url(jsonObject.getString("img"));
+                                jeu.add(cards);
+                            }
+                        } } catch (JSONException e) {
                         e.printStackTrace();
                     }
                 }

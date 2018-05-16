@@ -38,7 +38,7 @@ public class SecondActivity extends AppCompatActivity {
         CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsing);
         collapsingToolbarLayout.setTitleEnabled(true);
 
-      //  TextView tv_name = findViewById(R.id.collapsing);
+        TextView tv_name = findViewById(R.id.p_name);
         TextView tv_attaque = findViewById(R.id.p_attaque);
         TextView tv_vie=findViewById(R.id.p_vie);
         TextView tv_cout=findViewById(R.id.p_cout);
@@ -51,7 +51,7 @@ public class SecondActivity extends AppCompatActivity {
 
 
 
-       // tv_name.setText(name);
+        tv_name.setText(name);
         tv_attaque.setText(attaque);
         tv_vie.setText(vie);
         tv_cout.setText(cout);
