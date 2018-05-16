@@ -6,7 +6,7 @@
  	"cost": 1,
  	"attack": 0,
  	"health": 1,
- 	"text": "Camouflage. � la fin de votre tour, donne +1 PV � un autre serviteur alli� al�atoire.",
+ 	"text": "Camouflage. À la fin de votre tour, donne +1 PV à un autre serviteur allié aléatoire.",
  	"race": "Demon",
  	"playerClass": "Warlock",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_059.png"
@@ -19,7 +19,7 @@
  	"cost": 1,
  	"attack": 3,
  	"health": 2,
- 	"text": "Cri de guerre: inflige 3 points de d�g�ts � votre heros.",
+ 	"text": "Cri de guerre: inflige 3 points de dégâts à votre heros.",
  	"race": "Demon",
  	"playerClass": "Warlock",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_319.png"
@@ -32,7 +32,7 @@
  	"cost": 1,
  	"attack": 1,
  	"health": 1,
- 	"text": "Vous n�avez plus de demons! Heureusement, il y a toujours des diablotins...",
+ 	"text": "Vous n’avez plus de demons! Heureusement, il y a toujours des diablotins...",
  	"race": "Demon",
  	"playerClass": "Warlock",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_317t.png"
@@ -57,31 +57,31 @@
  	"cost": 3,
  	"attack": 3,
  	"health": 3,
- 	"text": "Cri de guerre: detruit les serviteurs adjacents et gagne leurs points d�Attaque et de Vie.",
+ 	"text": "Cri de guerre: detruit les serviteurs adjacents et gagne leurs points d’Attaque et de Vie.",
  	"race": "Demon",
  	"playerClass": "Warlock",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_304.png"
  },{
  	
- 	"name": "Portail d�invocation",
+ 	"name": "Portail d’invocation",
  	"type": "Minion",
  	"rarity": "Common",
  	"cost": 4,
  	"attack": 0,
  	"health": 4,
- 	"text": "Vos serviteurs co�tent (2) cristaux de moins, mais jamais moins de (1).",
+ 	"text": "Vos serviteurs coûtent (2) cristaux de moins, mais jamais moins de (1).",
 	"race": "Minion",
  	"playerClass": "Warlock",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_315.png"
  },{
 
- 	"name": "Seigneur des ab�mes",
+ 	"name": "Seigneur des abîmes",
  	"type": "Minion",
  	"rarity": "Epic",
  	"cost": 4,
  	"attack": 5,
  	"health": 6,
- 	"text": "Cri de guerre: inflige 5 points de deg�ts � votre heros.",
+ 	"text": "Cri de guerre: inflige 5 points de degâts à votre heros.",
  	"race": "Demon",
  	"playerClass": "Warlock",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_313.png"
@@ -95,7 +95,7 @@
  	"cost": 5,
  	"attack": 5,
  	"health": 7,
- 	"text": "Charge. Cri de guerre : vous d�fausse de deux cartes al�atoires.",
+ 	"text": "Charge. Cri de guerre : vous défausse de deux cartes aléatoires.",
  	"race": "Demon",
  	"playerClass": "Warlock",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_310.png"
@@ -107,12 +107,91 @@
  	"cost": 9,
  	"attack": 3,
  	"health": 15,
- 	"text": "Cri de guerre : le seigneur Jaraxxus d�truit votre h�ros et prend sa place.",
+ 	"text": "Cri de guerre : le seigneur Jaraxxus détruit votre héros et prend sa place.",
  	"race": "Demon",
  	"playerClass": "Warlock",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_323.png"
- }
+ },
 
+{
+   
+      "name": "Feu demoniaque",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 2  de dégâts à un serviteur. Si la cible est un de vos démons, lui donne +2/+2 à la place.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_596.png"
+    },
+{
+     
+      "name": "Detection des demons",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Vous piochez 2 démons de votre deck.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_317.png"
+    },
+
+{
+      "name": "Ombreflamme",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 4,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Détruit un serviteur allié et inflige des dégâts équivalents à ses points d’attaque à tous les serviteurs adverses.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_303.png"
+      
+    },
+{
+      
+      "name": "Plaie funeste",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 5,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 2 de dégâts à un personnage. S’il est tué, invoque un démon aléatoire.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_320.png"
+    },
+{
+      
+      "name": "Siphonner l’ame",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 6,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Détruit un serviteur. Rend 3 PV à votre héros.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_309.png"
+    },
+{
+   
+      "name": "Neant distordu",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 8,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Détruit tous les serviteurs.",
+      "playerClass": "Warlock",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_312.png"
+    }
 
 
 ]
