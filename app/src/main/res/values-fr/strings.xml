@@ -9,9 +9,8 @@
     <string name="message_yes">Oui</string>
     <string name="message_quit">Quitter</string>
     <string name="message_gotit">Ok</string>
-    <string name="notification">Notification www.tutos-android.com</string>
-    <string name="notification_title">Ma premiere notification www.tutos-android.com</string>
-    <string name="notification_desc">Cliquez sur moi je suis une notification</string>
+    <string name="notification_title">Notification </string>
+    <string name="notification_desc">Téléchargement terminé.</string>
     <string name="add_notification">Ajouter une notification</string>
     <string name="message_notif">Envoi notification</string>
 

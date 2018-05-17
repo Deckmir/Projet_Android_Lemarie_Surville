@@ -32,21 +32,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private CardView Voleur;
     private CardView Legendaire;
     public static String classe;
-    MediaPlayer mySong;
+    public static MediaPlayer mySong= null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Chaman=(CardView) findViewById(R.id.Chaman);
-        Chasseur=(CardView)findViewById(R.id.Chasseur);
-        Demoniste=(CardView)findViewById(R.id.Demoniste);
-        Druide=(CardView)findViewById(R.id.Druide);
-        Guerrier=(CardView)findViewById(R.id.Guerrier);
-        Mage = (CardView)findViewById(R.id.Mage);
-        Paladin=(CardView)findViewById(R.id.Paladin);
-        Pretre =(CardView)findViewById(R.id.Pretre);
-        Voleur=(CardView)findViewById(R.id.Voleur);
-        Legendaire=(CardView)findViewById(R.id.Legendaire);
+        Chaman = (CardView) findViewById(R.id.Chaman);
+        Chasseur = (CardView) findViewById(R.id.Chasseur);
+        Demoniste = (CardView) findViewById(R.id.Demoniste);
+        Druide = (CardView) findViewById(R.id.Druide);
+        Guerrier = (CardView) findViewById(R.id.Guerrier);
+        Mage = (CardView) findViewById(R.id.Mage);
+        Paladin = (CardView) findViewById(R.id.Paladin);
+        Pretre = (CardView) findViewById(R.id.Pretre);
+        Voleur = (CardView) findViewById(R.id.Voleur);
+        Legendaire = (CardView) findViewById(R.id.Legendaire);
 
         Chaman.setOnClickListener(this);
         Chasseur.setOnClickListener(this);
@@ -58,10 +58,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Pretre.setOnClickListener(this);
         Voleur.setOnClickListener(this);
         Legendaire.setOnClickListener(this);
+        if(mySong == null) {
+            mySong = MediaPlayer.create(getApplicationContext(), R.raw.hearthstone);
+            if(!mySong.isPlaying()){
+                mySong.start();
+                mySong.setLooping(true);
+            }
+        }
 
-        mySong=MediaPlayer.create(MainActivity.this,R.raw.hearthstone );
-    //    mySong.start();
     }
+
+
+
+
 
     private void quit() {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
@@ -103,6 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public boolean onCreateOptionsMenu(Menu menu) {
         //ajoute les entrées de menu_test à l'ActionBar
         getMenuInflater().inflate(R.menu.menu_main, menu);
+
         return true;
     }
 
