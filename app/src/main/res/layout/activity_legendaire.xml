@@ -8,11 +8,19 @@
     tools:context=".Activity.LegendaireActivity">
 
 
-    <android.support.v7.widget.RecyclerView
+    <Button
+        android:id="@+id/button_dl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:text="TELECHARGER" />
+
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_legendaire"
-        />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_dl"
+ />
 
 
 </RelativeLayout>

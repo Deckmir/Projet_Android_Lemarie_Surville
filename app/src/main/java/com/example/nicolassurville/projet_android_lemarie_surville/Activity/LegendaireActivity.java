@@ -1,5 +1,7 @@
 package com.example.nicolassurville.projet_android_lemarie_surville.Activity;
 
+import android.app.DownloadManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -31,6 +33,8 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 import static com.example.nicolassurville.projet_android_lemarie_surville.Activity.SelectionChamanActivity.choix;
 
@@ -42,7 +46,9 @@ public class LegendaireActivity extends AppCompatActivity {
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<Cards> jeu;
-
+    Button button;
+    DownloadManager downloadManager;
+    Uri uri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,10 +59,39 @@ public class LegendaireActivity extends AppCompatActivity {
         jeu = new ArrayList<>();
 
 
-
-
         rv = (RecyclerView) findViewById(R.id.rv_legendaire);
         lancement_JSON();
+        button= (Button)findViewById(R.id.button_dl);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               Random rand = new Random();
+               int i = rand.nextInt(3);
+                switch(i){
+
+                    case(0):
+                         uri  = Uri.parse("http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/NEW1_029_premium.gif");
+                        break;
+                    case(1):
+                        uri  = Uri.parse("http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/EX1_014_premium.gif");
+                        break;
+                    case(2):
+                         uri  = Uri.parse("http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/NEW1_024_premium.gif");
+                        break;
+                    case(3):
+                         uri  = Uri.parse("http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/EX1_0249_premium.gif");
+                        break;
+                        default:
+                            break;
+                }
+                downloadManager = (DownloadManager)getSystemService(Context.DOWNLOAD_SERVICE);
+                DownloadManager.Request request = new DownloadManager.Request(uri);
+                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+                Long reference = downloadManager.enqueue(request);
+            }
+        });
+
+
     }
     private void lancement_JSON(){
 
