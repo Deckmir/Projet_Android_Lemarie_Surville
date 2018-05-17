@@ -33,6 +33,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private CardView Legendaire;
     public static String classe;
     public static MediaPlayer mySong= null;
+    public static MediaPlayer voicechaman= null;
+    public static MediaPlayer voicechasseur= null;
+    public static MediaPlayer voicedemoniste= null;
+    public static MediaPlayer voicedruide= null;
+    public static MediaPlayer voiceguerrier= null;
+    public static MediaPlayer voicemage= null;
+    public static MediaPlayer voicepaladin= null;
+    public static MediaPlayer voicepretre= null;
+    public static MediaPlayer voicevoleur= null;
+    public static MediaPlayer voicelegendaire= null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -165,50 +175,70 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case(R.id.Chaman):
                 classe="Chaman";
                 intent = new Intent(this, SelectionChamanActivity.class);
+                voicechaman = MediaPlayer.create(getApplicationContext(), R.raw.chaman);
+                voicechaman.start();
                  startActivity(intent);
                  break;
             case(R.id.Chasseur):
                 classe="Chasseur";
                 intent = new Intent(this,  SelectionChamanActivity.class);
+                voicechasseur = MediaPlayer.create(getApplicationContext(), R.raw.chasseur);
+                voicechasseur.start();
                 startActivity(intent);
                 break;
             case(R.id.Demoniste):
                 classe="Demoniste";
                 intent = new Intent(this,  SelectionChamanActivity.class);
+                voicedemoniste = MediaPlayer.create(getApplicationContext(), R.raw.demoniste);
+                voicedemoniste.start();
                 startActivity(intent);
                 break;
             case(R.id.Druide):
                 classe="Druide";
                 intent = new Intent(this,  SelectionChamanActivity.class);
+                voicedruide = MediaPlayer.create(getApplicationContext(), R.raw.druide);
+                voicedruide.start();
                 startActivity(intent);
                 break;
             case(R.id.Guerrier):
                 classe="Guerrier";
                 intent = new Intent(this,  SelectionChamanActivity.class);
+                voiceguerrier = MediaPlayer.create(getApplicationContext(), R.raw.guerrier);
+                voiceguerrier.start();
                 startActivity(intent);
                 break;
             case(R.id.Mage):
                 classe="Mage";
                 intent = new Intent(this,  SelectionChamanActivity.class);
+                    voicemage = MediaPlayer.create(getApplicationContext(), R.raw.mage);
+                        voicemage.start();
                 startActivity(intent);
                 break;
             case(R.id.Paladin):
                 classe="Paladin";
                 intent = new Intent(this, SelectionChamanActivity.class);
+                voicepaladin = MediaPlayer.create(getApplicationContext(), R.raw.paladin);
+                voicepaladin.start();
                 startActivity(intent);
                 break;
             case(R.id.Pretre):
                 classe="Pretre";
                 intent = new Intent(this,  SelectionChamanActivity.class);
+                voicepretre = MediaPlayer.create(getApplicationContext(), R.raw.pretre);
+                voicepretre.start();
                 startActivity(intent);
                 break;
             case(R.id.Voleur):
                 classe="Voleur";
                 intent = new Intent(this,  SelectionChamanActivity.class);
+                voicevoleur = MediaPlayer.create(getApplicationContext(), R.raw.voleur);
+                voicevoleur.start();
                 startActivity(intent);
                 break;
             case(R.id.Legendaire):
                 intent=new Intent(this, LegendaireActivity.class);
+                voicelegendaire = MediaPlayer.create(getApplicationContext(), R.raw.leg_dore);
+                voicelegendaire.start();
                 startActivity(intent);
                 break;
 
