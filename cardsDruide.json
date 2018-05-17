@@ -2,7 +2,7 @@
 
 {
  	
- 	"name": "Panth�re",
+ 	"name": "Panthère",
  	"type": "Minion",
  	"rarity": "Common",
  	"cost": 2,
@@ -17,7 +17,7 @@
 
 {
  
- 	"name": "Tr�ant",
+ 	"name": "Tréant",
  	"type": "Minion",
  	"rarity":"Common",
  	"cost": 2,
@@ -37,7 +37,7 @@
  	"attack": 2,
  	"health": 2,
 	"race": "Minion",
- 	"text": "Choix des armes: inflige 2_points de d�g�ts ou r�duit au Silence un serviteur.",
+ 	"text": "Choix des armes: inflige 2_points de dégâts ou réduit au Silence un serviteur.",
  	"playerClass": "Druid",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_166.png"
  	
@@ -78,18 +78,150 @@
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_008.png"
  	
  },{
- 	"name": "C�narius",
+ 	"name": "Cénarius",
  	"type": "Minion",
  	"rarity": "Legendary",
  	"cost": 9,
  	"attack": 5,
  	"health": 8,
 	"race":"Minion",
- 	"text": "Choix des armes: donne +2/+2 � vos autres serviteurs ou invoque deux tr�ants 2/2 avec Provocation.",
+ 	"text": "Choix des armes: donne +2/+2 à vos autres serviteurs ou invoque deux tréants 2/2 avec Provocation.",
  	"playerClass": "Druid",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_573.png"
  	
- }
+ },
+{
+      
+      "name": "Acclimatation",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Détruit un serviteur. Votre adversaire pioche 2 cartes.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_161.png"
+    },
+
+{
+     
+      "name": "Sauvagerie",
+      "type": "Spell",
+      "rarity": "Rare",
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "cost": 1,
+      "text": "Inflige des dégâts d’un montant équivalent à l’Attaque de votre héros à un serviteur.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_578.png"
+    },
+{
+     
+      "name": "Colere",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Choix des armes : inflige 3  de dégâts à un serviteur ; ou inflige 1 | de dégâts à un serviteur et vous piochez une carte.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_154.png"
+    },
+ {
+      
+      "name": "Puissance du fauve",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Choix des armes:donne +1/+1 à vos serviteurs ou invoque une panthère 3/2.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_160.png"
+    },
+{
+      
+      "name": "Marque de la nature",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Choix des armes : donne +4 ATQ à un serviteur ou +4 PV et Provocation.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_155.png"
+    },
+{
+      
+      "name": "Ame de la foret",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 4,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Confère à vos serviteurs « Râle d’agonie : invoque un tréant 2/2. »",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_158.png"
+    },
+{
+      
+      "name": "Morsure",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 4,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Donne +4 ATQ à votre héros pendant ce tour. Gagne 4 points d’armure.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_570.png"
+    },
+{
+     
+      "name": "Force de la nature",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 5,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Invoque trois tréants 2/2.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_571.png"
+    },
+{
+    
+      "name": "Meteores",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 5,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Choix des armes : inflige 5  de dégâts à un serviteur ; ou 2  de dégâts à tous les serviteurs adverses.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_007.png"
+    },
+{
+     
+      "name": "Nourrir",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 5,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Choix des armes: vous gagnez 2 cristaux de mana ou vous piochez 3 cartes.",
+      "playerClass": "Druid",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_164.png"
+    }
+
 
 
 

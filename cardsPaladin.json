@@ -7,7 +7,7 @@
  	"attack": 2,
  	"health": 2,
 	"race":"Minion",
- 	"text": "Cri de guerre : conf�re Bouclier divin � un serviteur alli�.",
+ 	"text": "Cri de guerre : confère Bouclier divin à un serviteur allié.",
  	"playerClass": "Paladin",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_362.png"
  },
@@ -19,7 +19,7 @@
  	"cost": 3,
  	"attack": 3,
  	"health": 3,
- 	"text": "Cri de guerre_: l�Attaque d�un serviteur adverse passe � 1.",
+ 	"text": "Cri de guerre_: l’Attaque d’un serviteur adverse passe à 1.",
  	"race":"Minion",
  	"playerClass": "Paladin",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_382.png"
@@ -31,13 +31,183 @@
  	"cost": 8,
  	"attack": 6,
  	"health": 6,
- 	"text": "Bouclier divin. Provocation. R�le d�agonie_: vous �quipe de Porte-cendres 5/3.",
+ 	"text": "Bouclier divin. Provocation. Râle d’agonie_: vous équipe de Porte-cendres 5/3.",
  	"playerClass": "Paladin",
 	"race":"Minion",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_383.png"
- }
+ },
+
+{
+  
+      "name": "Epee de justice",
+      "type": "Weapon",
+      "rarity": "Epic",
+      "cost": 3,
+      "attack": 1,
+      "health": 5,
+	"race":"None",
+      "text": "Après avoir invoqué un serviteur, lui donne +1/+1 et perd 1 Durabilité.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_366.png"
+    },{
+
+      "name": "Benediction de sagesse",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Choisissez un serviteur. Chaque fois qu’il attaque, vous piochez une carte.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_363.png"
+    },
 
 
+{
+    
+      "name": "Noble sacrifice",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret : invoque un défenseur 2/1 qui devient la cible de l’adversaire sur le point d’attaquer.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_130.png"
+    },
+
+
+ {
+    
+      "name": "Œil pour œil",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret_: inflige au héros adverse autant de dégâts que ceux subis par votre héros.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_132.png"
+    },
+
+
+{
+    
+      "name": "Redemption",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret_: quand un serviteur allié meurt, il est ressuscité avec 1 PV.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_136.png"
+    },
+
+{
+      
+      "name": "Repentir",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,  
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret : une fois que votre adversaire a joué un serviteur, ses points de vie sont réduits à 1.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_379.png"
+    },
+
+ {
+      
+      "name": "Egalite",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Les points de vie de TOUS les serviteurs passent à 1.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_619.png"
+    },
+
+
+
+ {
+
+      "name": "Faveur divine",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Vous piochez des cartes jusqu’à en avoir autant en main que votre adversaire.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_349.png"
+    },
+
+{
+   
+      "name": "Benediction du champion",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 5,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Double l’Attaque d’un serviteur.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_355.png"
+    },
+
+
+{
+    
+      "name": "Colere divine",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 5,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Vous piochez une carte et infligez des dégâts d’un montant égal à son coût.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_365.png"
+    },
+
+ {
+  
+      "name": "Courroux vengeur",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 6,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 8  de dégâts répartis de façon aléatoire entre tous les adversaires.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_384.png"
+    },
+
+ {
+
+      "name": "Imposition des mains",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 8,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Rend 8 de vie. Vous piochez 3_cartes.",
+      "playerClass": "Paladin",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_354.png"
+    }
 
 
 ]

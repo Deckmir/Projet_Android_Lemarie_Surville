@@ -65,7 +65,6 @@ public class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> 
     public void onBindViewHolder(CardHolder holder, int position) {
 
         holder.tv_name.setText(cards.get(position).getName());
-        holder.tv_cardClass.setText(cards.get(position).getclasse());
 
 
 
@@ -90,7 +89,6 @@ public class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> 
 
     public class CardHolder extends RecyclerView.ViewHolder {
         TextView tv_name;
-        TextView tv_cardClass;
         ImageView img_URL;
         LinearLayout Lin_container;
 
@@ -98,7 +96,6 @@ public class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardHolder> 
             super(itemView);
             Lin_container= itemView.findViewById(R.id.container);
             tv_name = (TextView) itemView.findViewById(R.id.rv_card_name);
-            tv_cardClass = (TextView) itemView.findViewById(R.id.rv_playerClass);
             img_URL = itemView.findViewById(R.id.rv_img);
 
 

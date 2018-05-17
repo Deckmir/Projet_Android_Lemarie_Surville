@@ -10,7 +10,7 @@
  	"attack": 2,
  	"health": 2,
 	"race":"Minion",
- 	"text": "Cri de guerre : inflige 1 point de d�g�ts � un serviteur et lui donne +2 ATQ.",
+ 	"text": "Cri de guerre : inflige 1 point de dégâts à un serviteur et lui donne +2 ATQ.",
  	"playerClass": "Warrior",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_603.png"
  },
@@ -24,19 +24,19 @@
  	"attack": 2,
  	"health": 4,
 	"race": "Minion",
- 	"text": "Chaque fois qu�un serviteur subit des d�g�ts, gagne +1 ATQ.",
+ 	"text": "Chaque fois qu’un serviteur subit des dégâts, gagne +1 ATQ.",
  	"playerClass": "Warrior",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_604.png"
  },
 {
- 	"name": "Fabricante d�armes",
+ 	"name": "Fabricante d’armes",
  	"type": "Minion",
  	"rarity": "Common",
  	"cost": 4,
  	"attack": 3,
  	"health": 3,
 	"race": "Minion",
- 	"text": "<b>Cri de guerre_:</b> vous �quipe d�une arme_2/2.",
+ 	"text": "<b>Cri de guerre_:</b> vous équipe d’une arme_2/2.",
  	"playerClass": "Warrior",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_398.png"
  },{
@@ -48,10 +48,165 @@
  	"attack": 4,
  	"health": 9,
 	"race":"Minion",
- 	"text": "Charge A + 6 ATQ s�il est bless�.",
+ 	"text": "Charge A + 6 ATQ s’il est blessé.",
  	"playerClass": "Warrior",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_414.png"
- }
+ },
+{
+     
+      "name": "Hache d armes",
+      "type": "Weapon",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": 2,
+      "health": 2,
+      "text": "    ",
+	"race":"None",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_398t.png"
+    },
+{
+      "name": "Hache lourde",
+      "type": "Weapon",
+      "rarity": "Common", 
+      "cost": 1,
+      "attack": 1,
+      "health": 3,
+      "text":  "   ",
+	"race":"None",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_409t.png"
+    },
+{
+     
+      "name": "Hurlesang",
+      "type": "Weapon",
+      "rarity": "Epic",
+      "cost": 7,
+      "attack": 7,
+      "health": 1,
+	"race":"None",
+      "text": "Attaquer un serviteur coûte 1 ATQ au lieu de 1 Durabilité.",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_411.png"
+    },{
+       
+      "name": "Rage interieure",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 0,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 1 de dégâts à un serviteur et lui donne +2 ATQ.",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_607.png"
+    }, 
+
+{
+    
+      "name": "Amelioration !",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Si vous avez une arme, lui donne +1/+1. Sinon, vous équipe d’une arme 1/3.",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_409.png"
+    },
+
+ {
+   
+      "name": "Heurt de bouclier",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 1 point de dégâts à un serviteur pour chaque point d’Armure que vous avez.",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_410.png"
+    },
+{
+     
+      "name": "Cri de commandement",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 2,
+      "text": "Les points de vie de vos serviteurs ne peuvent pas passer en dessous de 1 ce tour-ci. Vous piochez une carte.",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_036.png"
+    },
+{
+     
+      "name": "Heurtoir",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 2 de dégâts à un serviteur. Vous piochez une carte s’il survit.",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_391.png"
+    },
+{
+    
+      "name": "Rage du combat",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Vous piochez une carte pour chaque personnage allié blessé.",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_392.png"
+    },
+{
+     
+      "name": "Saccager",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Donne +3/+3 à un serviteur blessé.",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_104.png"
+    },
+
+{
+      
+      "name": "Frappe mortelle",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 4,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 4  de dégâts. Si votre héros a 12 PV ou moins, inflige 6  de dégâts à la place.",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_408.png"
+    },
+
+{
+     
+      "name": "Baston",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 5,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Détruit tous les serviteurs sauf un <i>(choisi au hasard)</i>.",
+      "playerClass": "Warrior",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_407.png"
+    }
 
 
 

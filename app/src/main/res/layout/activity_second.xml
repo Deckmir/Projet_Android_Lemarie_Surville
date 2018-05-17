@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_scrollFlags="exitUntilCollapsed|scroll"
-            app:title="Nom de la carte"
+
 
             >
 
@@ -30,7 +30,7 @@
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:focusable="true"
@@ -38,8 +38,10 @@
 
                 <ImageView
                     android:id="@+id/p_img"
-                    android:layout_width="180dp"
-                    android:layout_height="250dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
 
                     />
 
@@ -53,7 +55,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:id="@+id/rv_card_name_2"
+                        android:id="@+id/p_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
@@ -86,7 +88,6 @@
                 android:id="@+id/imageMana"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:layout_toLeftOf="@+id/p_rare"
                 android:layout_toStartOf="@+id/p_rare"
                 app:srcCompat="@drawable/mana" />
@@ -248,7 +249,8 @@
                 android:layout_alignTop="@+id/Textview2"
                 android:layout_toEndOf="@+id/textView"
                 android:layout_toRightOf="@+id/textView"
-                android:text="cout en mana" />
+                android:text="cout en mana"
+                android:textSize="18sp"/>
 
             <TextView
                 android:id="@+id/p_attaque"
@@ -257,7 +259,9 @@
                 android:layout_alignBottom="@+id/textView4"
                 android:layout_alignLeft="@+id/p_cout"
                 android:layout_alignStart="@+id/p_cout"
-                android:text="cout attaque" />
+                android:text="cout attaque"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/p_vie"
@@ -266,7 +270,9 @@
                 android:layout_alignBottom="@+id/textView5"
                 android:layout_alignLeft="@+id/p_attaque"
                 android:layout_alignStart="@+id/p_attaque"
-                android:text="cout vie" />
+                android:text="cout vie"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/p_race"
@@ -275,7 +281,9 @@
                 android:layout_alignBottom="@+id/textView6"
                 android:layout_alignLeft="@+id/imageVie"
                 android:layout_alignStart="@+id/imageVie"
-                android:text="race" />
+                android:text="race"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/p_description"
@@ -284,7 +292,9 @@
                 android:layout_alignLeft="@+id/p_race"
                 android:layout_alignStart="@+id/p_race"
                 android:layout_alignTop="@+id/textView7"
-                android:text="description" />
+                android:text="description"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/p_rare"
@@ -294,7 +304,9 @@
                 android:layout_alignBottom="@+id/textView8"
                 android:layout_toLeftOf="@+id/p_vie"
                 android:layout_toStartOf="@+id/p_vie"
-                android:text="rarete" />
+                android:text="rarete"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/p_classe"
@@ -304,7 +316,9 @@
                 android:layout_alignBottom="@+id/textView9"
                 android:layout_alignEnd="@+id/imageVie"
                 android:layout_alignRight="@+id/imageVie"
-                android:text="classe" />
+                android:text="classe"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/p_type"
@@ -313,7 +327,9 @@
                 android:layout_alignLeft="@+id/imageLeg"
                 android:layout_alignStart="@+id/imageLeg"
                 android:layout_alignTop="@+id/textView10"
-                android:text="type" />
+                android:text="type"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
 
         </RelativeLayout>

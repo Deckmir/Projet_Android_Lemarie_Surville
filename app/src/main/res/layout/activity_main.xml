@@ -224,6 +224,29 @@
                     android:background="@drawable/voleur_avatar"
                     android:cropToPadding="true"/>
             </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:text="LEGENDAIRE"
+                android:visibility="visible" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Legendaire"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/dore"
+                    android:cropToPadding="true"/>
+            </android.support.v7.widget.CardView>
+
         </LinearLayout>
 
 

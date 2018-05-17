@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">HS'Cards</string>
+    <string name="app_name">HS\'Cards</string>
     <string name="message">Are tou sure, do you want to quit ?</string>
     <string name="message_settings">ABOUT THIS APP: Dev by Xhosty and Deckmir Version 1.0</string>
     <string name="message_save">Save</string>

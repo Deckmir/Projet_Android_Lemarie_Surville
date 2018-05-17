@@ -6,7 +6,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
@@ -21,8 +20,6 @@ import android.widget.Toast;
 
 import com.example.nicolassurville.projet_android_lemarie_surville.R;
 
-import java.io.IOException;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private CardView Chaman;
     private CardView Chasseur;
@@ -33,9 +30,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private CardView Paladin;
     private CardView Pretre;
     private CardView Voleur;
+    private CardView Legendaire;
+    public static String classe;
     MediaPlayer mySong;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Paladin=(CardView)findViewById(R.id.Paladin);
         Pretre =(CardView)findViewById(R.id.Pretre);
         Voleur=(CardView)findViewById(R.id.Voleur);
+        Legendaire=(CardView)findViewById(R.id.Legendaire);
 
         Chaman.setOnClickListener(this);
         Chasseur.setOnClickListener(this);
@@ -59,9 +57,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Paladin.setOnClickListener(this);
         Pretre.setOnClickListener(this);
         Voleur.setOnClickListener(this);
-        mySong=MediaPlayer.create(MainActivity.this,R.raw.hearthstone );
-        mySong.start();
+        Legendaire.setOnClickListener(this);
 
+        mySong=MediaPlayer.create(MainActivity.this,R.raw.hearthstone );
+    //    mySong.start();
     }
 
     private void quit() {
@@ -153,39 +152,52 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()){
             case(R.id.Chaman):
-                intent = new Intent(this, ChamanActivity.class);
+                classe="Chaman";
+                intent = new Intent(this, SelectionChamanActivity.class);
                  startActivity(intent);
                  break;
             case(R.id.Chasseur):
-                intent = new Intent(this, ChasseurActivity.class);
+                classe="Chasseur";
+                intent = new Intent(this,  SelectionChamanActivity.class);
                 startActivity(intent);
                 break;
             case(R.id.Demoniste):
-                intent = new Intent(this, DemonisteActivity.class);
+                classe="Demoniste";
+                intent = new Intent(this,  SelectionChamanActivity.class);
                 startActivity(intent);
                 break;
             case(R.id.Druide):
-                intent = new Intent(this, DruideActivity.class);
+                classe="Druide";
+                intent = new Intent(this,  SelectionChamanActivity.class);
                 startActivity(intent);
                 break;
             case(R.id.Guerrier):
-                intent = new Intent(this, GuerrierActivity.class);
+                classe="Guerrier";
+                intent = new Intent(this,  SelectionChamanActivity.class);
                 startActivity(intent);
                 break;
             case(R.id.Mage):
-                intent = new Intent(this, MageActivity.class);
+                classe="Mage";
+                intent = new Intent(this,  SelectionChamanActivity.class);
                 startActivity(intent);
                 break;
             case(R.id.Paladin):
-                intent = new Intent(this, PaladinActivity.class);
+                classe="Paladin";
+                intent = new Intent(this, SelectionChamanActivity.class);
                 startActivity(intent);
                 break;
             case(R.id.Pretre):
-                intent = new Intent(this, PretreActivity.class);
+                classe="Pretre";
+                intent = new Intent(this,  SelectionChamanActivity.class);
                 startActivity(intent);
                 break;
             case(R.id.Voleur):
-                intent = new Intent(this, VoleurActivity.class);
+                classe="Voleur";
+                intent = new Intent(this,  SelectionChamanActivity.class);
+                startActivity(intent);
+                break;
+            case(R.id.Legendaire):
+                intent=new Intent(this, LegendaireActivity.class);
                 startActivity(intent);
                 break;
 

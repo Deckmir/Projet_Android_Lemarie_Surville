@@ -22,7 +22,7 @@
  	"cost": 2,
  	"attack": 1,
  	"health": 1,
- 	"text": "Camouflage   Toxicit�",
+ 	"text": "Camouflage   Toxicité",
  	"playerClass": "Rogue",
 	"race":"Minion",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_522.png"
@@ -38,7 +38,7 @@
  	"attack": 2,
  	"health": 2,
 	"race": "Minion",
- 	"text": "Combo : invoque un bandit d�fias 2/1.",
+ 	"text": "Combo : invoque un bandit défias 2/1.",
  	"playerClass": "Rogue",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_131.png"
 
@@ -50,7 +50,7 @@
  	"cost": 3,
  	"attack": 3,
  	"health": 3,
- 	"text": "Combo : inflige 2 points de deg�ts.",
+ 	"text": "Combo : inflige 2 points de degâts.",
 	"race": "Minion",
  	"playerClass": "Rogue",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_134.png"
@@ -63,7 +63,7 @@
  	"attack": 2,
  	"health": 2,
 	"rare":"Minion",
- 	"text": "Combo: gagne +2/+2 pour chaque autre carte que vous avez jou�e pendant ce tour.",
+ 	"text": "Combo: gagne +2/+2 pour chaque autre carte que vous avez jouée pendant ce tour.",
  	"playerClass": "Rogue",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_613.png"
  },
@@ -76,7 +76,7 @@
  	"attack": 4,
  	"health": 4,
 	"race":"Minion",
- 	"text": "Cri de guerre : conf�re Camouflage � un serviteur alli� jusqu�� votre prochain tour.",
+ 	"text": "Cri de guerre : confère Camouflage à un serviteur allié jusqu’à votre prochain tour.",
  	"playerClass": "Rogue",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_014.png"
  },
@@ -93,7 +93,110 @@
  	"text": "Combo: renvoie un serviteur dans la main de son proprietaire.",
  	"playerClass": "Rogue",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_005.png"
- }
+ },
+{
+    
+      "name": "Lame de la perdition",
+      "type": "Weapon",
+      "rarity": "Rare",
+      "cost": 3,
+      "attack": 2,
+      "health": 2,
+	"race":"None",
+      "text": "Cri de guerre: inflige 1_point de dégâts. Combo: inflige 2 points de dégâts à la place.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_133.png"
+    },{
+     
+      "name": "Pas de l ombre",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 0, 
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Renvoie un serviteur allié dans votre main. Il coûte 2 cristaux de moins.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_144.png"
+    },
+{
+     
+      "name": "Preparation",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 0, 
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Le prochain sort que vous lancez pendant ce tour coûte (3) cristaux de moins.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_145.png"
+    },
+ {
+     
+      "name": "Sang froid",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Donne +2 ATQ à un serviteur. Combo: +4 ATQ à la place.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_073.png"
+    },
+{
+     
+      "name": "Éviscération",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 2 de dégâts. Combo_: inflige 4 de dégâts à la place.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_124.png"
+    },
+ {
+     
+      "name": "Trahison",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Force un serviteur adverse à infliger ses dégâts aux serviteurs à côté de lui.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_126.png"
+    },
+{
+     
+      "name": "Casse-tete",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 2 de dégâts au héros adverse. Combo : renvoie cette carte dans votre main au tour suivant.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_137.png"
+    },
 
+ {
+     
+      "name": "Deluge de lames",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 4,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Détruit votre arme, dont les dégâts sont infligés à tous les serviteurs adverses.",
+      "playerClass": "Rogue",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_233.png"
+    }
 
 ]

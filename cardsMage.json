@@ -33,7 +33,7 @@
  	"attack": 3,
  	"health": 2,
 	"race":"Minion",
- 	"text": "Vos sorts co�tent (1) cristal de moins.",
+ 	"text": "Vos sorts coûtent (1) cristal de moins.",
  	"playerClass": "Mage",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_608.png"
  },
@@ -45,7 +45,7 @@
  	"cost": 3,
  	"attack": 4,
  	"health": 3,
- 	"text": "Cri de guerre: le prochain Secret que vous jouez pendant ce tour co�te 0.",
+ 	"text": "Cri de guerre: le prochain Secret que vous jouez pendant ce tour coûte 0.",
  	"playerClass": "Mage",
 	"race":"Minion",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_612.png"
@@ -60,7 +60,7 @@
  	"attack": 3,
  	"health": 3,
 	"rare":"Minion",
- 	"text": "Si vous contr�lez un <b>Secret</b> � la fin de votre tour, gagne_+2/+2.",
+ 	"text": "Si vous contrôlez un <b>Secret</b> à la fin de votre tour, gagne_+2/+2.",
  	"playerClass": "Mage",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_274.png"
  },{
@@ -72,7 +72,7 @@
  	"attack": 2,
  	"health": 5,
 	"rare":"Minion",
- 	"text": "Cri de guerre: donne aux serviteurs adjacents +1_aux d�g�ts des sorts.",
+ 	"text": "Cri de guerre: donne aux serviteurs adjacents +1_aux dégâts des sorts.",
  	"playerClass": "Neutral",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_584.png"
  },
@@ -85,9 +85,115 @@
  	"attack": 5,
  	"health": 7,
 	"rare":"Minion",
- 	"text": "Chaque fois que vous lancez un sort, ajoute un sort �_boule de feu_� dans votre main.",
+ 	"text": "Chaque fois que vous lancez un sort, ajoute un sort «_boule de feu_» dans votre main.",
  	"playerClass": "Mage",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_559.png"
- }
+ },
+{
+     
+      "name": "Barriere de glace",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret: quand votre héros est attaqué, il gagne 8 points d’armure.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_289.png"
+    },
+{
+     
+      "name": "Contresort",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret : quand votre adversaire lance un sort, le contre.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_287.png"
+    },
+{
+     
+      "name": "Courbe-sort",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret: quand votre adversaire lance un sort sur un serviteur, invoque un 1/3 qui devient la nouvelle cible.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/tt_010.png"
+    },
+{
+     
+      "name": "Entité miroir",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret : une fois que votre adversaire a joué un serviteur, en invoque une copie.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_294.png"
+    },
+
+ {
+     
+      "name": "Vaporisation",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret : quand un serviteur attaque votre héros, le détruit.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_594.png"
+    },
+ {
+    
+      "name": "Cone de froid",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 4,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Gèle et inflige 1  de dégâts à un serviteur et ceux à côté de lui.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_275.png"
+    },
+ {
+     
+      "name": "Blizzard",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 6,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 2 de dégâts à tous les serviteurs adverses et les gèle.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_028.png"
+      
+    },
+  {
+     
+      "name": "Explosion pyrotechnique",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 10,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 10 de dégâts.",
+      "playerClass": "Mage",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_279.png"
+    }
 
 ]

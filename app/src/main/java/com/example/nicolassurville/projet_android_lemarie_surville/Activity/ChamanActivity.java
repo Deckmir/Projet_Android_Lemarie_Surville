@@ -32,16 +32,18 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+
+import static com.example.nicolassurville.projet_android_lemarie_surville.Activity.SelectionChamanActivity.choix;
 
 public class ChamanActivity extends AppCompatActivity {
 
 
     private RecyclerView rv;
-    public static final String HEARTHSTONE_UPDATE = "https://raw.githubusercontent.com/Deckmir/Projet_Android_Lemarie_Surville/master/cardsChaman.json";
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<Cards> jeu;
-
+    public static final String HEARTHSTONE_UPDATE = "https://raw.githubusercontent.com/Deckmir/Projet_Android_Lemarie_Surville/master/cardsChaman.json";
 
 
     @Override
@@ -73,8 +75,8 @@ public class ChamanActivity extends AppCompatActivity {
 
                         Cards cards = new Cards();
 
-
-                        if(jsonObject.getString("playerClass").equals("Shaman")) {
+                        if(choix.equals("serviteur")){
+                        if(jsonObject.getString("type").equals("Minion" ) || jsonObject.getString("type").equals("Weapon" ) ) {
                             cards.setName(jsonObject.getString("name"));
                             cards.setType(jsonObject.getString("type"));
                             cards.setRare(jsonObject.getString("rarity"));
@@ -87,7 +89,30 @@ public class ChamanActivity extends AppCompatActivity {
                             cards.setRace(jsonObject.getString("race"));
                             jeu.add(cards);
                         }
-                    } catch (JSONException e) {
+                    }
+                    if(choix.equals("sort")){
+                        if(jsonObject.getString("type").equals("Spell" )  ) {
+                            cards.setName(jsonObject.getString("name"));
+                            cards.setType(jsonObject.getString("type"));
+                            cards.setRare(jsonObject.getString("rarity"));
+                            cards.setCout(jsonObject.getString("cost"));
+                            cards.setDescription(jsonObject.getString("text"));
+                            cards.setclasse(jsonObject.getString("playerClass"));
+                            cards.setImage_url(jsonObject.getString("img"));
+                            jeu.add(cards);
+                        }
+                    } }
+
+
+
+
+
+
+
+
+
+
+                    catch (JSONException e) {
                         e.printStackTrace();
                     }
                 }

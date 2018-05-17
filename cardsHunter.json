@@ -29,7 +29,7 @@
  },
 {
  
- 	"name": "Hy�ne",
+ 	"name": "Hyène",
  	"type": "Minion",
  	"rarity": "Rare",
  	"cost": 2,
@@ -42,13 +42,13 @@
  	
  },
 {
- 	"name": "Hy�ne charognarde",
+ 	"name": "Hyène charognarde",
  	"type": "Minion",
  	"rarity": "Common",
  	"cost": 2,
  	"attack": 2,
  	"health": 2,
- 	"text": "Chaque fois qu�une b�te alliee meurt, gagne_+2/+1.",
+ 	"text": "Chaque fois qu’une bête alliee meurt, gagne_+2/+1.",
  	"race": "Beast",
  	"playerClass": "Hunter",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_531.png"
@@ -56,13 +56,13 @@
  },
 {
 
- 	"name": "Grande crini�re des savanes",
+ 	"name": "Grande crinière des savanes",
  	"type": "Minion",
  	"rarity": "Rare",
  	"cost": 6,
  	"attack": 6,
  	"health": 5,
- 	"text": "R�le d�agonie : invoque deux hy�nes 2/2.",
+ 	"text": "Râle d’agonie : invoque deux hyènes 2/2.",
  	"race": "Beast",
  	"playerClass": "Hunter",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_534.png"
@@ -79,7 +79,166 @@
  	"race": "Beast",
  	"playerClass": "Hunter",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_543.png"
-}
+},{
+      
+      "name": "Arc cornedaigle",
+      "type": "Weapon",
+      "rarity": "Rare",
+      "cost": 3,
+      "attack": 3,
+      "health": 2,
+      "race":"None",
+      "text": "Chaque fois qu’un <b>Secret</b> allié est révélé, gagne +1_Durabilité.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_536.png"
+      
+    },{
+      
+      "name": "Arc long du gladiateur",
+      "type": "Weapon",
+      "rarity": "Epic",
+      "cost": 7,
+      "attack": 5,
+      "health": 2,
+	"race":"None",
+      "text": "Votre héros est Insensible quand il attaque.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/DS1_188.png"
+    },
+	{
+     
+      "name": "Courroux bestial",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Donne 2 ATQ et l’effet Insensible à une Bête alliée pendant ce tour.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_549.png"
+
+    },
+
+{
+     
+      "name": "Detournement",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret: quand un adversaire attaque votre héros, il attaque un autre personnage aléatoire à la place.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_533.png"
+    },
+ {
+    
+      "name": "Fusee eclairante",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Tous les serviteurs perdent le <b>Camouflage</b>. Détruit tous les <b>Secrets</b> adverses. Vous piochez une carte.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_544.png"
+    },
+
+{
+     
+      "name": "Piege a serpents",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret : quand un de vos serviteurs est attaqué, invoque trois serpents 1/1.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_554.png"
+    },
+{
+      
+      "name": "Piege explosif",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret : quand votre héros est attaqué, inflige 2  de dégâts à tous les adversaires.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_610.png"
+    },
+{
+      
+      "name": "Piege givrant",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret: quand un serviteur adverse attaque, le renvoie dans la main de son propriétaire et il coûte désormais 2 cristaux de plus.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_611.png"
+    },
+
+{
+      "name": "Tir de precision",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Secret : une fois que votre adversaire a joué un serviteur, ce dernier subit 4  de dégâts.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_609.png"
+    },
+{
+     
+      "name": "Lacher les chiens",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Invoque un chien 1/1 avec Charge pour chaque serviteur adverse.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_538.png"
+    }, 
+
+{
+     
+      "name": "Tir meurtrier",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Détruit un serviteur adverse aléatoire.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_617.png"
+    },
+{
+     
+      "name": "Tir explosif",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 5,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 5 de dégâts à un serviteur et 2 de dégâts aux serviteurs adjacents.",
+      "playerClass": "Hunter",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_537.png"
+    }
 ]
 
 

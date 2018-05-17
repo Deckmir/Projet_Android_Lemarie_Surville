@@ -35,7 +35,7 @@
  	"cost": 3,
  	"attack": 0,
  	"health": 3,
- 	"text": "Vous piochez une carte � la fin de votre tour.",
+ 	"text": "Vous piochez une carte à la fin de votre tour.",
  	"race": "Totem",
  	"playerClass": "Shaman",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_575.png"
@@ -67,7 +67,140 @@
  	"playerClass": "Shaman",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_010.png"
  	
- }
+ },
+	{
+      
+      "name": "Marteau-du-Destin",
+      "type": "Weapon",
+      "rarity": "Epic",
+      "cost": 5,
+      "race": "None",
+      "attack": 2,
+      "health": 8,
+      "text": "Furie des vents   Surcharge : 2",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_567.png"
+    },
+{
+    
+      "name": "Hache de Forge-foudre",
+      "type": "Weapon",
+      "rarity": "Common",
+      "race": "None",
+      "cost": 2,
+      "attack": 2,
+      "health": 3,
+      "text": "Surcharge : 1",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_247.png"
+    },
+	 
+
+ {
+      "name": "Eclair",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 3  de dégâts.  Surcharge : 1",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_238.png"
+      
+    },{
+      "name": "Fourche d’eclairs",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 2de dégâts à 2_serviteurs adverses aléatoires. Surcharge: 2",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_251.png"
+    },
+
+{
+      
+      "name": "Horion de terre",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Réduit un serviteur au Silence, puis lui inflige 1 de dégâts.",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_245.png"
+    },
+
+{
+      
+      "name": "Esprit ancestral",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 2,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Confère à un serviteur « Râle d’agonie : réinvoque ce serviteur. »",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_038.png"
+    },
+{
+    
+      "name": "Double vue",
+      "type": "Spell",
+      "rarity": "Epic",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Vous piochez une carte. Elle coûte 3 cristaux de moins.",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/CS2_053.png"
+    }, 
+{
+    
+      "name": "Esprit farouche",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Invoque deux esprits du loup 2/3 avec Provocation   Surcharge: 2",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_248.png"
+    },
 
 
+{
+     
+      "name": "Explosion de lave",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 5 de dégâts. Surcharge : 2",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_241.png"
+    },
+
+{
+      
+      "name": "Tempete de foudre",
+      "type": "Spell",
+      "rarity": "Rare",
+      "cost": 3,
+      "attack": "Null",
+      "health": "Null",
+      "race": "Null",
+      "text": "Inflige 2 à 3 points de dégâts à tous les serviteurs adverses. Surcharge: 2",
+      "playerClass": "Shaman",
+      "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_259.png"
+    }
 ]
