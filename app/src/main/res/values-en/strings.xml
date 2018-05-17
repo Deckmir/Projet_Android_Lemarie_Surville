@@ -3,7 +3,7 @@
 
     <string name="app_name">HS\'Cards</string>
     <string name="message">Are tou sure, do you want to quit ?</string>
-    <string name="message_settings">ABOUT THIS APP: Dev by Xhosty and Deckmir Version 1.0</string>
+    <string name="message_settings">ABOUT THIS APP: Version 1.0  25/05/2018 Dev: Maxime Lemarié and Nicolas Surville   Classe 31   ESIEA   2017/2018</string>
     <string name="message_save">Save</string>
     <string name="message_delete">OK</string>
     <string name="message_no">NO</string>
@@ -11,6 +11,9 @@
     <string name="message_quit">Quit</string>
     <string name="message_gotit">GOT IT</string>
     <string name="message_set">Settings</string>
+    <string name="message_notif">Download....</string>
+
+
 
 
 

@@ -1,9 +1,13 @@
 package com.example.nicolassurville.projet_android_lemarie_surville.Activity;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -102,33 +106,24 @@ public class SecondActivity extends AppCompatActivity {
     }
 
 
-    private void search() {
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-        alertDialogBuilder.setMessage(R.string.add_notification);
-        alertDialogBuilder.setPositiveButton(R.string.message_no, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface arg0, int arg1) {
-
-            }
-        });
-        alertDialogBuilder.setNegativeButton(R.string.message_yes, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(SecondActivity.this, R.string.message_notif, Toast.LENGTH_LONG).show();
-
-            }
-        });
-
-
-        AlertDialog alertDialog = alertDialogBuilder.create();
-        alertDialog.show();
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         //ajoute les entrées de menu_test à l'ActionBar
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+    }
+    public void notificationcall () {
+        NotificationCompat.Builder notificationBuider = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
+                .setDefaults(NotificationCompat.DEFAULT_ALL)
+                .setSmallIcon(R.drawable.ic_info_black_24dp)
+                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.hs_logo))
+                .setContentTitle("Notification ")
+                .setContentText("Application 2018 created by Maxime & Nicolas.");
+
+        NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.notify(1, notificationBuider.build());
+
     }
 
     //gère le click sur une action de l'ActionBar
@@ -141,6 +136,9 @@ public class SecondActivity extends AppCompatActivity {
                 return true;
             case R.id.action_quit:
                 quit();
+                return true;
+            case R.id.action_notification:
+                notificationcall();
                 return true;
 
 

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Cartes HS</string>
+    <string name="settings">Paramètres</string>
+    <string name="quit">Quitter</string>
     <string name="message">Etes vous sûre, voulez-vous quitter?</string>
-    <string name="message_settings">A PROPOS Développer par Xhosty and Deckmir Version 1.0</string>
+    <string name="message_settings">A PROPOS: Version Finale 1.0  25/05/2018 Développeur: Maxime Lemarié et Nicolas Surville   Classe 31   ESIEA   Année 2017/2018 </string>
     <string name="message_save">Sauvegarder</string>
     <string name="message_delete">Supprimer</string>
     <string name="message_no">Non</string>
     <string name="message_yes">Oui</string>
     <string name="message_quit">Quitter</string>
     <string name="message_gotit">Ok</string>
-    <string name="notification_title">Notification </string>
-    <string name="notification_desc">Téléchargement terminé.</string>
-    <string name="add_notification">Ajouter une notification</string>
-    <string name="message_notif">Envoi notification</string>
+    <string name="add_notification">Ok</string>
+    <string name="message_notif">Téléchargement....</string>
+
 
 </resources>

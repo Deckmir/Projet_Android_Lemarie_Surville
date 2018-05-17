@@ -119,11 +119,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void notificationcall () {
         NotificationCompat.Builder notificationBuider = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
                 .setDefaults(NotificationCompat.DEFAULT_ALL)
-                .setSmallIcon(R.drawable.ic_file_download_black_24dp)
+                .setSmallIcon(R.drawable.ic_info_black_24dp)
                 .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.hs_logo))
-                .setBadgeIconType(R.drawable.ic_file_download_black_24dp)
                 .setContentTitle("Notification ")
-                .setContentText("Téléchargement terminé.");
+                .setContentText("Application 2018 created by Maxime & Nicolas.");
 
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(1, notificationBuider.build());
@@ -141,6 +140,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.action_quit:
                 quit();
                 return true;
+            case R.id.action_notification:
+                notificationcall();
+                return true;
             case R.id.action_internet:
                 // 1. Appeler une URL web
                 String url = "https://playhearthstone.com/fr-fr/?utm_term=hearthstone&utm_source=google&utm_medium=cpc&utm_content=33938835611&utm_campaign=MEC_444951971&gclid=CjwKCAjwiurXBRAnEiwAk2GFZu1KDw1Lk1PNEo0a5gDv9oMQg-4rCBL5maAnOpSfd8taGi_fU48a1xoCG9QQAvD_BwE";
@@ -148,7 +150,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 return true;
             case R.id.action_home:
-                    notificationcall();
                     return true;
         }
 
