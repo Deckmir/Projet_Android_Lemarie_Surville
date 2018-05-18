@@ -8,7 +8,7 @@
  	"cost": 1,
  	"attack": 3,
  	"health": 1,
- 	"text": "Furie des vents\\n Surcharge : (2)",
+ 	"text": "Furie des vents Surcharge : (2)",
  	"race": "Elemental",
  	"playerClass": "Shaman",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_243.png"
@@ -22,7 +22,7 @@
  	"cost": 3,
  	"attack": 2,
  	"health": 4,
- 	"text": "Chaque fois que vous jouez une carte avec Surcharge, gagne_+1/+1.",
+ 	"text": "Si vous jouez une carte avec Surcharge, gagne +1/+1.",
  	"race": "Elemental",
  	"playerClass": "Shaman",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_258.png"
@@ -48,7 +48,7 @@
  	"cost": 5,
  	"attack": 7,
  	"health": 8,
- 	"text": "Provocation\\nSurcharge:(3)",
+ 	"text": "Provocation Surcharge:(3)",
  	"race": "Elemental",
  	"playerClass": "Shaman",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_250.png"
@@ -116,7 +116,7 @@
       "attack": "Null",
       "health": "Null",
       "race": "Null",
-      "text": "Inflige 2de dégâts à 2_serviteurs adverses aléatoires. Surcharge: 2",
+      "text": "Inflige 2 de dégâts à 2 serviteurs adverses aléatoires. Surcharge: 2",
       "playerClass": "Shaman",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_251.png"
     },
