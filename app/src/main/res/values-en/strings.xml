@@ -11,8 +11,23 @@
     <string name="message_quit">Quit</string>
     <string name="message_gotit">GOT IT</string>
     <string name="message_set">Settings</string>
-
-
+    <string name="mana">Mana Cost</string>
+    <string name="attaque">Attack</string>
+    <string name="vie">Health</string>
+    <string name="race">Race</string>
+    <string name="rare">Rarity</string>
+    <string name="classe">Class</string>
+    <string name="chaman">SHAMAN</string>
+    <string name="chasseur">HUNTER</string>
+    <string name="demoniste">WARLOCK</string>
+    <string name="druide">DRUID</string>
+    <string name="guerrier">WARRIOR</string>
+    <string name="pretre">PRIEST</string>
+    <string name="voleur">ROGUE</string>
+    <string name="leg">LEGENDARY</string>
+    <string name="home">Home</string>
+    <string name="parametre">Settings</string>
+    <string name="quitter">Quit</string>
 
 
 

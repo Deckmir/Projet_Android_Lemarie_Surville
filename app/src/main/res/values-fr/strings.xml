@@ -9,10 +9,27 @@
     <string name="message_yes">Oui</string>
     <string name="message_quit">Quitter</string>
     <string name="message_gotit">Ok</string>
+    <string name="rare">Rareté</string>
+    <string name="mana">Coût en mana</string>
+    <string name="attaque">Attaque</string>
+    <string name="vie">Vie</string>
+    <string name="race">Race</string>
+    <string name="classe">Classe</string>
     <string name="notification">Notification www.tutos-android.com</string>
     <string name="notification_title">Ma premiere notification www.tutos-android.com</string>
     <string name="notification_desc">Cliquez sur moi je suis une notification</string>
     <string name="add_notification">Ajouter une notification</string>
     <string name="message_notif">Envoi notification</string>
+    <string name="chaman">CHAMAN</string>
+    <string name="chasseur">CHASSEUR</string>
+    <string name="demoniste">DEMONISTE</string>
+    <string name="druide">DRUIDE</string>
+    <string name="guerrier">GUERRIER</string>
+    <string name="pretre">PRETRE</string>
+    <string name="voleur">VOLEUR</string>
+    <string name="leg">LEGENDAIRE</string>
+    <string name="home">Accueil</string>
+    <string name="parametre">Paramètre</string>
+    <string name="quitter">Quitter</string>
 
 </resources>

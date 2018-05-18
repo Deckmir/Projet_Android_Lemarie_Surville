@@ -6,7 +6,7 @@
     <item
         android:id="@+id/action_home"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="Home"
+        android:title="@string/home"
         app:showAsAction="always" />
 
     <item
@@ -19,7 +19,7 @@
     <item
         android:id="@+id/action_settings"
         android:icon="@android:drawable/ic_menu_info_details"
-        android:title="Settings"
+        android:title="@string/parametre"
         app:showAsAction="never" />
 
 
@@ -27,7 +27,7 @@
 
     <item
         android:id="@+id/action_quit"
-        android:title="Quit"
+        android:title="@string/quitter"
         app:showAsAction="never" />
 
 </menu>
