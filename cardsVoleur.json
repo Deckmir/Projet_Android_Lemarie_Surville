@@ -103,7 +103,7 @@
       "attack": 2,
       "health": 2,
 	"race":"None",
-      "text": "Cri de guerre: inflige 1_point de dégâts. Combo: inflige 2 points de dégâts à la place.",
+      "text": "Cri de guerre: inflige 1 point de dégâts. Combo: inflige 2 points de dégâts à la place.",
       "playerClass": "Rogue",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_133.png"
     },{
@@ -147,7 +147,7 @@
     },
 {
      
-      "name": "Éviscération",
+      "name": "Evisceration",
       "type": "Spell",
       "rarity": "Common",
       "cost": 2,
