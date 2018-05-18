@@ -147,7 +147,7 @@
                 android:layout_alignBottom="@+id/textView"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:text="Coût en mana"
+                android:text="@string/mana"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -160,7 +160,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_marginBottom="11dp"
-                android:text="Attaque	"
+                android:text="@string/attaque"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -172,7 +172,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignTop="@+id/imageVie"
-                android:text="Vie"
+                android:text="@string/vie"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -184,7 +184,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/imageVie"
-                android:text="Race"
+                android:text="@string/race"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -206,11 +206,11 @@
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/textView9"
+                android:layout_alignRight="@+id/textView9"
                 android:layout_below="@+id/textView7"
-                android:layout_marginTop="28dp"
-                android:text="Rareté"
+                android:layout_marginTop="47dp"
+                android:text="@string/rare"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -223,7 +223,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/imageLeg"
                 android:layout_marginTop="16dp"
-                android:text="Classe"
+                android:text="@string/classe"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -304,7 +304,7 @@
                 android:layout_alignBottom="@+id/textView8"
                 android:layout_toLeftOf="@+id/p_vie"
                 android:layout_toStartOf="@+id/p_vie"
-                android:text="rarete"
+                android:text="rare"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
 

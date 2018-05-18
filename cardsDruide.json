@@ -2,7 +2,7 @@
 
 {
  	
- 	"name": "Panthère",
+ 	"name": "Panthere",
  	"type": "Minion",
  	"rarity": "Common",
  	"cost": 2,
@@ -17,7 +17,7 @@
 
 {
  
- 	"name": "Tréant",
+ 	"name": "Treant",
  	"type": "Minion",
  	"rarity":"Common",
  	"cost": 2,
@@ -37,7 +37,7 @@
  	"attack": 2,
  	"health": 2,
 	"race": "Minion",
- 	"text": "Choix des armes: inflige 2_points de dégâts ou réduit au Silence un serviteur.",
+ 	"text": "Choix des armes: inflige 2 points de dégâts ou réduit au Silence un serviteur.",
  	"playerClass": "Druid",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_166.png"
  	
@@ -50,7 +50,7 @@
  	"attack": 4,
  	"health": 4,
 	"race": "Minion",
- 	"text": "Choix des armes: se transforme en_4/4 avec Charge ou en 4/6 avec Provocation.",
+ 	"text": "Choix des armes: se transforme en 4/4 avec Charge ou en 4/6 avec Provocation.",
  	"playerClass": "Druid",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_165.png"
  	
@@ -62,7 +62,7 @@
  	"cost": 7,
  	"attack": 5,
  	"health": 5,
- 	"text": "Choix des armes :\\n+5 ATQ ou +5 PV et Provocation.",
+ 	"text": "Choix des armes : +5 ATQ ou +5 PV et Provocation.",
  	"playerClass": "Druid",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_178.png"
  	
@@ -78,7 +78,7 @@
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_008.png"
  	
  },{
- 	"name": "Cénarius",
+ 	"name": "Cenarius",
  	"type": "Minion",
  	"rarity": "Legendary",
  	"cost": 9,
@@ -126,7 +126,7 @@
       "attack": "Null",
       "health": "Null",
       "race": "Null",
-      "text": "Choix des armes : inflige 3  de dégâts à un serviteur ; ou inflige 1 | de dégâts à un serviteur et vous piochez une carte.",
+      "text": "Choix des armes : inflige 3  de dégâts à un serviteur ; ou inflige 1 de dégâts à un serviteur et vous piochez une carte.",
       "playerClass": "Druid",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_154.png"
     },
