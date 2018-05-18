@@ -36,7 +36,7 @@
  	"attack": 3,
  	"health": 3,
 	"race": "Minion",
- 	"text": "<b>Cri de guerre_:</b> vous équipe d’une arme_2/2.",
+ 	"text": "Cri de guerre: vous équipe d’une arme 2/2.",
  	"playerClass": "Warrior",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_398.png"
  },{
@@ -203,7 +203,7 @@
       "attack": "Null",
       "health": "Null",
       "race": "Null",
-      "text": "Détruit tous les serviteurs sauf un <i>(choisi au hasard)</i>.",
+      "text": "Détruit tous les serviteurs sauf un choisi au hasard.",
       "playerClass": "Warrior",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_407.png"
     }
