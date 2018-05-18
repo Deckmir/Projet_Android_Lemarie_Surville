@@ -24,7 +24,7 @@
 
     <item
         android:id="@+id/action_notification"
-        android:title="Send a notification"
+        android:title="@string/notif"
         app:showAsAction="never" />
 
 

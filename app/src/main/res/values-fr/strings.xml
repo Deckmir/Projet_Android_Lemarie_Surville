@@ -31,5 +31,6 @@
     <string name="home">Accueil</string>
     <string name="parametre">Paramètre</string>
     <string name="quitter">Quitter</string>
+    <string name="notif">Envoyer une notification</string>
 
 </resources>

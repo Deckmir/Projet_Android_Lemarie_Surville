@@ -11,6 +11,7 @@
     <string name="message_quit">Quit</string>
     <string name="message_gotit">GOT IT</string>
     <string name="message_set">Settings</string>
+    <string name="notif">Send a notification</string>
     <string name="mana">Mana Cost</string>
     <string name="attaque">Attack</string>
     <string name="vie">Health</string>
