@@ -48,7 +48,7 @@
  	"cost": 6,
  	"attack": 6,
  	"health": 6,
- 	"text": "Cri de guerre: donne +3_PV à un serviteur allie.",
+ 	"text": "Cri de guerre: donne +3 PV à un serviteur allie.",
 	"race":"Minion",
  	"playerClass": "Priest",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_623.png"

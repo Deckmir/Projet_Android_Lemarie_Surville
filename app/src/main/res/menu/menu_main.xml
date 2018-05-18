@@ -22,6 +22,11 @@
         android:title="@string/parametre"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_notification"
+        android:title="Send a notification"
+        app:showAsAction="never" />
+
 
 
 

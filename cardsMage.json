@@ -20,7 +20,7 @@
  	"cost": 1,
  	"attack": 1,
  	"health": 3,
- 	"text": "Chaque fois que vous lancez un sort, gagne +1_ATQ.",
+ 	"text": "Chaque fois que vous lancez un sort, gagne +1 ATQ.",
  	"race":"Minion",
  	"playerClass": "Mage",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/NEW1_012.png"
@@ -60,7 +60,7 @@
  	"attack": 3,
  	"health": 3,
 	"rare":"Minion",
- 	"text": "Si vous contrôlez un <b>Secret</b> à la fin de votre tour, gagne_+2/+2.",
+ 	"text": "Si vous contrôlez un Secret à la fin de votre tour, gagne +2/+2.",
  	"playerClass": "Mage",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_274.png"
  },{
@@ -72,7 +72,7 @@
  	"attack": 2,
  	"health": 5,
 	"rare":"Minion",
- 	"text": "Cri de guerre: donne aux serviteurs adjacents +1_aux dégâts des sorts.",
+ 	"text": "Cri de guerre: donne aux serviteurs adjacents +1 aux dégâts des sorts.",
  	"playerClass": "Neutral",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_584.png"
  },
@@ -85,7 +85,7 @@
  	"attack": 5,
  	"health": 7,
 	"rare":"Minion",
- 	"text": "Chaque fois que vous lancez un sort, ajoute un sort «_boule de feu_» dans votre main.",
+ 	"text": "Chaque fois que vous lancez un sort, ajoute un sort «boule de feu» dans votre main.",
  	"playerClass": "Mage",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_559.png"
  },
@@ -130,7 +130,7 @@
     },
 {
      
-      "name": "Entité miroir",
+      "name": "Entite miroir",
       "type": "Spell",
       "rarity": "Common",
       "cost": 3,

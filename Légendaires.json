@@ -7,7 +7,7 @@
       "attack": 4,
       "health": 4,
       "race":"Minion",
-      "text": "Cri de guerre : les sorts adverses coûtent 0 au prochain tour.",
+      "text": "Cri de guerre : les sorts adverses coÃ»tent 0 au prochain tour.",
       "playerClass": "Neutral",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/NEW1_029_premium.gif"
      
@@ -22,7 +22,7 @@
       "cost": 3,
       "attack": 5,
       "health": 5,
-      "text": "Cri de guerre_: donne 2 bananes à votre adversaire.",
+      "text": "Cri de guerre: donne 2 bananes Ã  votre adversaire.",
       "race": "Beast",
       "playerClass": "Neutral",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/EX1_014_premium.gif"
@@ -37,7 +37,7 @@
       "cost": 3,
       "attack": 3,
       "health": 3,
-      "text": "Cri de guerre_:transforme un autre serviteur aléatoire soit en diablosaure 5/5, soit en écureuil_1/1.",
+      "text": "Cri de guerre_:transforme un autre serviteur alÃ©atoire soit en diablosaure 5/5, soit en Ã©cureuil_1/1.",
       "playerClass": "Neutral",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/EX1_083_premium.gif"
     
@@ -51,7 +51,7 @@
       "cost": 5,
       "attack": 5,
       "health": 4,
-      "text": "Cri de guerre: donne +1/+1 à votre arme.",
+      "text": "Cri de guerre: donne +1/+1 Ã  votre arme.",
       "race": "Pirate",
       "playerClass": "Neutral",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/NEW1_024_premium.gif"
@@ -66,7 +66,7 @@
       "cost": 7,
       "attack": 7,
       "health": 5,
-      "text": "À la fin de votre tour, inflige 2 points de dégâts à TOUS les autres personnages.",
+      "text": "Ã€ la fin de votre tour, inflige 2 points de dÃ©gÃ¢ts Ã  TOUS les autres personnages.",
       "race": "Elemental",
       "playerClass": "Neutral",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/EX1_249_premium.gif"

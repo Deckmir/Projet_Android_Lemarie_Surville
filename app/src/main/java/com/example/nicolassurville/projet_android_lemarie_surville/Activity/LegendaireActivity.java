@@ -1,9 +1,14 @@
 package com.example.nicolassurville.projet_android_lemarie_surville.Activity;
 
+import android.app.DownloadManager;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,6 +36,8 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 import static com.example.nicolassurville.projet_android_lemarie_surville.Activity.SelectionChamanActivity.choix;
 
@@ -42,7 +49,9 @@ public class LegendaireActivity extends AppCompatActivity {
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<Cards> jeu;
-
+    Button button;
+    DownloadManager downloadManager;
+    Uri uri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,10 +62,40 @@ public class LegendaireActivity extends AppCompatActivity {
         jeu = new ArrayList<>();
 
 
-
-
         rv = (RecyclerView) findViewById(R.id.rv_legendaire);
         lancement_JSON();
+        button= (Button)findViewById(R.id.button_dl);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               Random rand = new Random();
+               int i = rand.nextInt(3);
+                switch(i){
+
+                    case(0):
+                         uri  = Uri.parse("http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/NEW1_029_premium.gif");
+                        break;
+                    case(1):
+                        uri  = Uri.parse("http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/EX1_014_premium.gif");
+                        break;
+                    case(2):
+                         uri  = Uri.parse("http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/NEW1_024_premium.gif");
+                        break;
+                    case(3):
+                         uri  = Uri.parse("http://wow.zamimg.com/images/hearthstone/cards/frfr/animated/EX1_0249_premium.gif");
+                        break;
+                        default:
+                            break;
+                }
+                downloadManager = (DownloadManager)getSystemService(Context.DOWNLOAD_SERVICE);
+                DownloadManager.Request request = new DownloadManager.Request(uri);
+                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+                Long reference = downloadManager.enqueue(request);
+                Toast.makeText(LegendaireActivity.this, R.string.message_notif, Toast.LENGTH_LONG).show();
+            }
+        });
+
+
     }
     private void lancement_JSON(){
 
@@ -155,6 +194,18 @@ public class LegendaireActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
+    public void notificationcall () {
+        NotificationCompat.Builder notificationBuider = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
+                .setDefaults(NotificationCompat.DEFAULT_ALL)
+                .setSmallIcon(R.drawable.ic_info_black_24dp)
+                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.hs_logo))
+                .setContentTitle("Notification ")
+                .setContentText("Application 2018 created by Maxime & Nicolas.");
+
+        NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.notify(1, notificationBuider.build());
+
+    }
 
     //gère le click sur une action de l'ActionBar
     @Override
@@ -166,6 +217,9 @@ public class LegendaireActivity extends AppCompatActivity {
                 return true;
             case R.id.action_quit:
                 quit();
+                return true;
+            case R.id.action_notification:
+                notificationcall();
                 return true;
 
             case R.id.action_home:

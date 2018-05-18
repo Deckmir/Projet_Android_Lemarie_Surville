@@ -29,7 +29,7 @@
  },
 {
  
- 	"name": "Hyène",
+ 	"name": "Hyene",
  	"type": "Minion",
  	"rarity": "Rare",
  	"cost": 2,
@@ -42,13 +42,13 @@
  	
  },
 {
- 	"name": "Hyène charognarde",
+ 	"name": "Hyene charognarde",
  	"type": "Minion",
  	"rarity": "Common",
  	"cost": 2,
  	"attack": 2,
  	"health": 2,
- 	"text": "Chaque fois qu’une bête alliee meurt, gagne_+2/+1.",
+ 	"text": "Chaque fois qu’une bête alliee meurt, gagne +2/+1.",
  	"race": "Beast",
  	"playerClass": "Hunter",
  	"img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_531.png"
@@ -56,7 +56,7 @@
  },
 {
 
- 	"name": "Grande crinière des savanes",
+ 	"name": "Grande criniere des savanes",
  	"type": "Minion",
  	"rarity": "Rare",
  	"cost": 6,
@@ -88,7 +88,7 @@
       "attack": 3,
       "health": 2,
       "race":"None",
-      "text": "Chaque fois qu’un <b>Secret</b> allié est révélé, gagne +1_Durabilité.",
+      "text": "Chaque fois qu’un Secret allié est révélé, gagne +1 Durabilité.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_536.png"
       
@@ -142,7 +142,7 @@
       "attack": "Null",
       "health": "Null",
       "race": "Null",
-      "text": "Tous les serviteurs perdent le <b>Camouflage</b>. Détruit tous les <b>Secrets</b> adverses. Vous piochez une carte.",
+      "text": "Tous les serviteurs perdent le Camouflage. Détruit tous les Secrets adverses. Vous piochez une carte.",
       "playerClass": "Hunter",
       "img": "http://wow.zamimg.com/images/hearthstone/cards/frfr/original/EX1_544.png"
     },

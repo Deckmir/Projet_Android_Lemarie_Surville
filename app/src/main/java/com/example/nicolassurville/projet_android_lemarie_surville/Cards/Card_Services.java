@@ -19,12 +19,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 
-/**
- * An {@link IntentService} subclass for handling asynchronous task requests in
- * a service on a separate handler thread.
- * <p>
- * TODO: Customize class - update intent actions and extra parameters.
- */
+
 public class Card_Services extends IntentService {
     private static final String TAG = Card_Services.class.getSimpleName();
     public static final String ACTION_CARDS = "com.example.nicolassurville.projet_android_lemarie_surville.HEARTHSTONE";
